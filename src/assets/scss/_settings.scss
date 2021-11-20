@@ -1,0 +1,52 @@
+
+$primaryColor: #00E472;
+$secondaryColor: #7200E4;
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  background-image: url("~@/assets/bg.jpeg");
+  color: #fff;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.button {
+  @include center;
+  height: 5rem;
+  border-radius: 5rem;
+  background: $primaryColor;
+  color: #222;
+  font-size: 2rem;
+  font-weight: 600;
+  min-width: 17rem;
+  cursor: pointer;
+  &--secondary {
+    background: $secondaryColor;
+    color: #fff;
+  }
+}
