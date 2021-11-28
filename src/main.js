@@ -1,5 +1,10 @@
 import Vue from "vue";
 import App from "./App.vue";
+import Vuelidate from 'vuelidate'
+
+const VueScrollTo = require('vue-scrollto');
+Vue.use(Vuelidate)
+Vue.use(VueScrollTo)
 import router from "./router";
 import "./assets/scss/style.scss";
 
