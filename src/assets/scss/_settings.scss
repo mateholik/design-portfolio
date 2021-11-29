@@ -1,13 +1,14 @@
-
-$primaryColor: #00E472;
-$secondaryColor: #7200E4;
+$primaryColor: #00e472;
+$secondaryColor: #7200e4;
 @mixin center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @mixin phone {
-  @media (max-width: 768px) { @content; }
+  @media (max-width: 768px) {
+    @content;
+  }
 }
 html {
   font-size: 62.5%;
@@ -23,7 +24,6 @@ body {
   padding: 0;
   background-image: url("~@/assets/img/bg.jpeg");
   color: #fff;
- 
 }
 * {
   box-sizing: border-box;
@@ -78,7 +78,7 @@ img {
   img {
     width: 1.4rem;
     margin-right: 1rem;
-    @include phone { 
+    @include phone {
       width: 1.2rem;
       margin-right: 0.5rem;
     }
@@ -86,74 +86,83 @@ img {
 }
 
 section {
-	padding: 7.5rem 0;
-	@include phone {
-		padding: 3rem 0;
-	}
-	h2 {
-		margin-bottom: 7rem;
-		font-weight: 700;
-		font-size: 3.2rem;
+  padding: 7.5rem 0;
+  @include phone {
+    padding: 3rem 0;
+  }
+  h2 {
+    margin-bottom: 7rem;
+    font-weight: 700;
+    font-size: 3.2rem;
     text-transform: uppercase;
-		text-align: center;
-		@include phone {
-			font-size: 2.6rem;
-			margin-bottom: 3rem;
-		}
-	}
+    text-align: center;
+    @include phone {
+      font-size: 2.6rem;
+      margin-bottom: 3rem;
+    }
+  }
   h3 {
-		margin-bottom: 4rem;
-		font-weight: 700;
-		font-size: 3rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: 3rem;
     text-transform: uppercase;
-		@include phone {
-			font-size: 2.6rem;
-			margin-bottom: 2.5rem;
-		}
-	}
+    @include phone {
+      font-size: 2.6rem;
+      margin-bottom: 2.5rem;
+    }
+  }
 }
 
 @keyframes move {
-	0% {
-		top: 20%;
-	}
-	100% {
-		top: 80%;
-	}
+  0% {
+    top: 20%;
+  }
+  100% {
+    top: 80%;
+  }
 }
 
 .input-wrapper {
-	margin-bottom: 2.5rem;
-	@include phone {
-		margin-bottom: 1.5rem;
-	}
-	label {
-		display: block;
-		font-size: 1.8rem;
-		margin-bottom: 1rem;
-		@include phone {
-			font-size: 1.6rem;
-			margin-bottom: 0.8rem;
-		}
-	}
-	input, textarea {
-		height: 4.2rem;
-		width: 100%;
-		border-radius: 1rem;
-		outline: none;
-		border: none;
-		padding: 1rem 2rem;
-		@include phone {
-			height: 4rem;
-		}
-	}
-	textarea {
+  margin-bottom: 2.5rem;
+  @include phone {
+    margin-bottom: 1.5rem;
+  }
+  label {
+    display: block;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    @include phone {
+      font-size: 1.6rem;
+      margin-bottom: 0.8rem;
+    }
+  }
+  input,
+  textarea {
+    height: 4.2rem;
+    width: 100%;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    @include phone {
+      height: 4rem;
+    }
+  }
+  textarea {
     max-width: 100%;
     min-height: 22rem;
-	}
+  }
 }
-
-
+.input-error {
+  input,
+  textarea {
+    border: 2px solid #ff0101;
+  }
+  p {
+    color: #ff0101;
+    margin-top: 1rem;
+  }
+}
 
 .cool-border {
   box-shadow: 0 0 0 0.1rem $secondaryColor;

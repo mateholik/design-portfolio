@@ -67,18 +67,34 @@
               <Input
                 :label="contacts.inputs[0].label"
                 type="text"
-                v-model.trim="label"
-                :value="label"
-                @change="(val) => (value = val)"
+                v-model.trim="$v.email.$model"
+                :validator="$v.email"
               />
               <Input
                 v-model.trim="$v.message.$model"
                 :label="contacts.inputs[1].label"
                 type="textarea"
+                :validator="$v.message"
               />
               <div class="btn-holder">
-                <button type="submit" class="button">SEND</button>
+                <button
+                  class="button"
+                  type="submit"
+                  :disabled="submitStatus === 'PENDING'"
+                >
+                  Submit!
+                </button>
               </div>
+
+              <p class="typo__p" v-if="submitStatus === 'OK'">
+                Thanks for your submission!
+              </p>
+              <p class="typo__p" v-if="submitStatus === 'ERROR'">
+                Please fill the form correctly.
+              </p>
+              <p class="typo__p" v-if="submitStatus === 'PENDING'">
+                Sending...
+              </p>
             </form>
           </div>
           <div class="right">
@@ -110,8 +126,9 @@ export default {
   },
   data() {
     return {
-      label: "",
+      email: "lox",
       message: "",
+      submitStatus: null,
       skillsData: [
         {
           logo: "design",
@@ -203,16 +220,26 @@ export default {
   },
   methods: {
     submit() {
-      console.log("submit");
+      console.log("submit!");
+      this.$v.$touch();
+      if (this.$v.$invalid) {
+        this.submitStatus = "ERROR";
+      } else {
+        // do your submit logic here
+        this.submitStatus = "PENDING";
+        setTimeout(() => {
+          this.submitStatus = "OK";
+        }, 2000);
+      }
     },
   },
   validations: {
-    label: {
+    email: {
       required,
+      email,
     },
     message: {
       required,
-      email,
     },
   },
 };
