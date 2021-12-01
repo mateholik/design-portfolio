@@ -45,6 +45,7 @@ img {
   display: block;
 }
 .container {
+  position: relative;
   max-width: 1100px;
   width: 100%;
   margin: 0 auto;
@@ -116,14 +117,14 @@ section {
   }
 }
 
-@keyframes move {
-  0% {
-    top: 20%;
-  }
-  100% {
-    top: 80%;
-  }
-}
+// @keyframes move {
+//   0% {
+//     top: 20%;
+//   }
+//   100% {
+//     top: 80%;
+//   }
+// }
 
 .input-wrapper {
   margin-bottom: 2.5rem;
@@ -171,22 +172,22 @@ section {
   border: 0.5px solid #5E5E5E;
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(0.9);
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
-  }
+// @keyframes pulse {
+//   0% {
+//     transform: scale(0.9);
+//     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+//   }
 
-  50% {
-    transform: scale(1.1);
-    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0);
-  }
+//   50% {
+//     transform: scale(1.1);
+//     box-shadow: 0 0 0 5px rgba(255, 255, 255, 0);
+//   }
 
-  100% {
-    transform: scale(0.9);
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-  }
-}
+//   100% {
+//     transform: scale(0.9);
+//     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+//   }
+// }
 
 .planet {
   animation: pulse 2s infinite;

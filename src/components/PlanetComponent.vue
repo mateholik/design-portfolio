@@ -77,6 +77,7 @@ export default {
     "mobLeft",
     "mobBottom",
     "mobRight",
+    "shadow",
   ],
   computed: {
     style() {
@@ -97,6 +98,7 @@ export default {
         if (this.mobRight) obj.right = this.mobRight;
       }
       if (this.delay) obj.animationDelay = this.delay;
+      if (this.shadow === "false") obj.boxShadow = "none!important";
 
       return obj;
     },
