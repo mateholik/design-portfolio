@@ -1,6 +1,6 @@
 <template>
   <div class="item-wrap">
-    <div class="item">
+    <div class="item cool-border">
       <div class="img-holder">
         <img
           :src="require('@/assets/img/' + skillData.logo + '.svg')"

@@ -171,9 +171,8 @@ header {
 					position: relative;
 					height: 100%;
 					border-radius: 2rem;
-					border: 0.1rem solid $secondaryColor;
 					padding: 3rem;
-					// backdrop-filter: blur(2px);
+					backdrop-filter: blur(2rem);
 					position: relative;
 					overflow: hidden;
 					@include phone {
@@ -316,6 +315,31 @@ header {
 			}
 	}
 }
+.banners {
+	padding-bottom: 0;
+	.wrapper {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap:  wrap;
+			margin: 0 -2rem;
+			.img-wrapper {
+				width: calc(min(50%, 60rem));
+				padding: 0 2rem;
+				margin-bottom: 8rem;
+				max-width: 50rem;
+				@include phone {
+					width: 100%;
+					max-width: 40rem;
+					margin: auto;
+					margin-bottom: 5rem;
+					text-align: center;
+				}
+				img {
+					border-radius: 2rem;
+				}
+			}
+	}
+}
 .logos {
 	.wrapper {
 			display: flex;
@@ -395,7 +419,32 @@ header {
 			}
 	}
 }
-
+.about {
+	.wrapper {
+		padding: 4rem;
+		background: linear-gradient(287.66deg, rgba(0, 0, 0, 0.1) 0%, rgba(43, 43, 43, 0.4) 100%);
+		backdrop-filter: blur(2rem);
+		border-radius: 2rem;
+		@include phone {
+			padding: 2rem;
+		}
+		.title {
+			font-weight: 700;
+			font-size: 2.6rem;
+			margin-bottom: 2rem;
+			@include phone {
+				font-size: 2.2rem;
+				margin-bottom: 1rem;
+			}
+		}
+		p	{
+			font-size: 1.8rem;
+			@include phone {
+				font-size: 1.6rem;
+			}
+		}
+	}
+}
 .contact {
 	.wrapper {
 		@include center;
@@ -421,7 +470,7 @@ header {
 				justify-content: flex-start;
 				color: #fff;	
 				&:not(:last-of-type) {
-					margin-bottom: 1rem;
+					margin-bottom: 1.4rem;
 				}
 				img {
 					width: 2rem;

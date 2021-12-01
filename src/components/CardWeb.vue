@@ -5,7 +5,7 @@
       <div class="title">{{ webData.title }}</div>
       <p>{{ webData.description }}</p>
 
-      <div class="img-wrapper">
+      <div class="img-wrapper cool-border">
         <img
           :src="require('@/assets/img/' + webData.image)"
           :alt="webData.title"

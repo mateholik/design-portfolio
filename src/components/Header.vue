@@ -45,6 +45,10 @@ export default {
           link: "websites",
         },
         {
+          title: "Banners",
+          link: "banners",
+        },
+        {
           title: "Logos",
           link: "logos",
         },

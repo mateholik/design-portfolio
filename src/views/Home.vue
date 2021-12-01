@@ -3,12 +3,6 @@
     <Header />
     <Hero />
     <section id="skills" class="skills">
-      <img src="@/assets/img/planet.svg" alt="planet" class="planet" />
-      <img src="@/assets/img/planet.svg" alt="planet" class="planet planet-2" />
-      <img src="@/assets/img/planet.svg" alt="planet" class="planet planet-3" />
-      <img src="@/assets/img/planet.svg" alt="planet" class="planet planet-4" />
-      <img src="@/assets/img/planet.svg" alt="planet" class="planet planet-5" />
-      <img src="@/assets/img/planet.svg" alt="planet" class="planet planet-6" />
       <div class="container">
         <h2>SKILLS</h2>
         <div class="wrapper">
@@ -32,6 +26,24 @@
         </div>
       </div>
     </section>
+    <section id="banners" class="banners">
+      <div class="container">
+        <h2>Banners</h2>
+        <div class="wrapper">
+          <div
+            class="img-wrapper"
+            v-for="(img, i) in bannersData"
+            :key="`banner-${i}`"
+          >
+            <img
+              class="cool-border"
+              :src="require('@/assets/img/' + img)"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="logos" class="logos">
       <div class="container">
         <h2>Logos</h2>
@@ -41,6 +53,19 @@
             v-for="(item, i) in logosData"
             :key="`logo-${i}`"
           />
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="wrapper cool-border">
+          <div class="title">ABOUT ME</div>
+          <p>
+            I am a meticulous, ambitious UI / UX designer looking for customer
+            collaboration. I feel a passion for creating any design. If you are
+            looking for something beautiful for yourself and your company, get
+            in touch.
+          </p>
         </div>
       </div>
     </section>
@@ -126,7 +151,7 @@ export default {
   },
   data() {
     return {
-      email: "lox",
+      email: "",
       message: "",
       submitStatus: null,
       skillsData: [
@@ -170,7 +195,7 @@ export default {
           linkPdf: "www.pdf.lt",
         },
         {
-          tag: "Accommodation page ",
+          tag: "Accommodation page",
           title: "Ecohotel.lt",
           description:
             "Ecohotel.lt is a page for those who like to relax by the sea. Our hotel offers you unforgettable memories. ",
@@ -178,6 +203,21 @@ export default {
           linkFigma: "www.figma.lt",
           linkPdf: "www.pdf.lt",
         },
+        {
+          tag: "Portfolio",
+          title: "Maxdesign.online",
+          description:
+            "MaxDesign.online is a page where you can view all the current projects I have completed today.",
+          image: "maxdesign.jpeg",
+          linkFigma: "www.figma.lt",
+          linkPdf: "www.pdf.lt",
+        },
+      ],
+      bannersData: [
+        "banner-1.png",
+        "banner-2.png",
+        "banner-3.png",
+        "banner-4.png",
       ],
       logosData: [
         {
@@ -202,6 +242,21 @@ export default {
             icon: "email.svg",
             title: "maksim.vaisov061@gmail.com",
             link: "mailto:maksim.vaisov061@gmail.com",
+          },
+          {
+            icon: "fb.svg",
+            title: "Facebook",
+            link: "https://www.facebook.com/maxvaisov",
+          },
+          {
+            icon: "viber.svg",
+            title: "Viber",
+            link: "viber://chat/?number=%2B37067791332",
+          },
+          {
+            icon: "whatsup.svg",
+            title: "Whats up",
+            link: "https://wa.me/+37067791332",
           },
         ],
         inputs: [
