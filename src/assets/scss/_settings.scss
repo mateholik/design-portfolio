@@ -175,3 +175,25 @@ section {
   // border-right: 0.1rem solid gray;
 border: 1px solid gray;
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
+  }
+
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.planet {
+  animation: pulse 2s infinite;
+  border-radius: 50%;
+}
