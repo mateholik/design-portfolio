@@ -64,42 +64,40 @@
 <script>
 export default {
   name: "planet",
-  props: {
-    theme: {
-      type: String,
-      default: "",
-    },
-    size: {
-      type: String,
-      default: "",
-    },
-    top: {
-      type: String,
-      default: "",
-    },
-    left: {
-      type: String,
-      default: "",
-    },
-    bottom: {
-      type: String,
-      default: "",
-    },
-    right: {
-      type: String,
-      default: "",
-    },
-  },
+  props: [
+    "theme",
+    "size",
+    "top",
+    "left",
+    "bottom",
+    "right",
+    "delay",
+    "mobSize",
+    "mobTop",
+    "mobLeft",
+    "mobBottom",
+    "mobRight",
+  ],
   computed: {
     style() {
-      const obj = {
-        width: this.size,
-        height: this.size,
-      };
-      if (this.top) obj.top = this.top;
-      if (this.left) obj.left = this.left;
-      if (this.bottom) obj.bottom = this.bottom;
-      if (this.right) obj.right = this.right;
+      const obj = {};
+      if (window.innerWidth > 768) {
+        if (this.size) obj.width = this.size;
+        if (this.size) obj.height = this.size;
+        if (this.top) obj.top = this.top;
+        if (this.left) obj.left = this.left;
+        if (this.bottom) obj.bottom = this.bottom;
+        if (this.right) obj.right = this.right;
+      } else {
+        if (this.mobSize) obj.width = this.mobSize;
+        if (this.mobSize) obj.height = this.mobSize;
+        if (this.mobTop) obj.top = this.mobTop;
+        if (this.mobLeft) obj.left = this.mobLeft;
+        if (this.mobBottom) obj.bottom = this.mobBottom;
+        if (this.mobRight) obj.right = this.mobRight;
+      }
+      if (this.delay) obj.animationDelay = this.delay;
+
       return obj;
     },
   },

@@ -3,6 +3,33 @@
     <Header />
     <Hero />
     <section id="skills" class="skills">
+      <Planet
+        theme="dark"
+        size="13rem"
+        bottom="3%"
+        right="27%"
+        mobSize="2.2rem"
+        mobBottom="4%"
+        mobLeft="29%"
+      />
+      <Planet
+        theme="dark"
+        size="2rem"
+        bottom="3%"
+        right="27%"
+        mobSize="2.2rem"
+        mobBottom="4%"
+        mobLeft="29%"
+      />
+      <Planet
+        theme="dark"
+        size="1rem"
+        bottom="3%"
+        right="27%"
+        mobSize="2.2rem"
+        mobBottom="4%"
+        mobLeft="29%"
+      />
       <div class="container">
         <h2>SKILLS</h2>
         <div class="wrapper">
@@ -57,6 +84,16 @@
       </div>
     </section>
     <section class="about">
+      <Planet
+        delay="800ms"
+        theme="light"
+        size="4rem"
+        top="53%"
+        left="26%"
+        mobSize="2.2rem"
+        mobBottom="8%"
+        mobLeft="35%"
+      />
       <div class="container">
         <div class="wrapper cool-border">
           <div class="title">ABOUT ME</div>
@@ -133,7 +170,7 @@
 
 <script>
 import { required, email } from "vuelidate/lib/validators";
-
+import Planet from "@/components/PlanetComponent.vue";
 import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import CardSkill from "@/components/CardSkill.vue";
@@ -148,6 +185,7 @@ export default {
     CardWeb,
     CardLogo,
     Input,
+    Planet,
   },
   data() {
     return {
@@ -182,7 +220,8 @@ export default {
           description:
             "Moderna.com is a modern design web page, designed to acquire the latest technology. ",
           image: "moderna.jpeg",
-          linkFigma: "www.figma.lt",
+          linkFigma:
+            "https://www.figma.com/file/522ZJHxa6i49HbKKs1JLLd/Moderna",
           linkPdf: "www.pdf.lt",
         },
         {
@@ -191,7 +230,8 @@ export default {
           description:
             "Papuosk.lt is a page of various handmade jewelry for everyone who wants to buy original jewelry. ",
           image: "papuosk.jpeg",
-          linkFigma: "www.figma.lt",
+          linkFigma:
+            "https://www.figma.com/file/j4dnV3uvtAqP6vxC7d6b9f/Papuo%C5%A1k.lt?node-id=0%3A1",
           linkPdf: "www.pdf.lt",
         },
         {
@@ -200,7 +240,8 @@ export default {
           description:
             "Ecohotel.lt is a page for those who like to relax by the sea. Our hotel offers you unforgettable memories. ",
           image: "ecohotel.jpeg",
-          linkFigma: "www.figma.lt",
+          linkFigma:
+            "https://www.figma.com/file/AJ111Znm1ki5XUhNjWwJrR/Ecohotel",
           linkPdf: "www.pdf.lt",
         },
         {
@@ -209,7 +250,8 @@ export default {
           description:
             "MaxDesign.online is a page where you can view all the current projects I have completed today.",
           image: "maxdesign.jpeg",
-          linkFigma: "www.figma.lt",
+          linkFigma:
+            "https://www.figma.com/file/9AXA07QZaMlo1ehvfNFz72/Untitled?node-id=0%3A1",
           linkPdf: "www.pdf.lt",
         },
       ],
