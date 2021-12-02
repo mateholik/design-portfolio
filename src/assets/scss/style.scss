@@ -97,6 +97,7 @@ header {
 		}
   }
 	.buttons {
+		position: relative;
 		@include center;
 		.button {
 			min-width: 16rem;
@@ -106,6 +107,26 @@ header {
 		}
 		.button--secondary {
 			margin-left: 2rem;
+		}
+		.planets {
+			.green {
+				position: absolute;
+				top: 6%;
+				left: -15%;
+				width: 38%;
+			}
+			.blue {
+				position: absolute;
+				position: absolute;
+				bottom: 6%;
+				right: -15%;
+				width: 38%;
+		
+			}
+			svg {
+				width: 100%;
+				height: 100%;
+			}
 		}
 	}
 	.scroll {
