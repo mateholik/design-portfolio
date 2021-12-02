@@ -4,60 +4,119 @@
     <Hero />
     <section id="skills" class="skills">
       <div class="container">
-        <div class="planets-collection">
-          <div class="planets-wrapper">
-            <Planet
-              shadow="false"
-              theme="dark"
-              size="1rem"
-              bottom="28%"
-              right="36%"
-              mobSize="2.2rem"
-              mobBottom="28%"
-              mobRight="36%"
+        <div class="planets">
+          <svg
+            width="365"
+            height="373"
+            viewBox="0 0 365 373"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="355.836"
+              cy="230.385"
+              r="5.87207"
+              transform="rotate(-135 355.836 230.385)"
+              fill="url(#paint0_linear_303_933)"
             />
-            <Planet
-              theme="dark"
-              size="2rem"
-              bottom="20%"
-              right="33%"
-              mobSize="2.2rem"
-              mobBottom="20%"
-              mobRight="33%"
-              shadow="false"
+            <ellipse
+              cx="301.926"
+              cy="215.531"
+              rx="11.2548"
+              ry="11.2548"
+              transform="rotate(-135 301.926 215.531)"
+              fill="url(#paint1_linear_303_933)"
             />
-
-            <Planet
-              theme="dark"
-              size="13rem"
-              bottom="-14%"
-              right="21%"
-              mobSize="7.4rem"
-              mobBottom="-14%"
-              mobRight="21%"
-              shadow="false"
+            <circle
+              cx="185.049"
+              cy="172.748"
+              r="78.2943"
+              transform="rotate(-135 185.049 172.748)"
+              fill="url(#paint2_linear_303_933)"
             />
-            <Planet
-              theme="dark"
-              size="2rem"
-              bottom="-8%"
-              right="16%"
-              mobSize="2.2rem"
-              mobBottom="-8%"
-              mobRight="16%"
-              shadow="false"
+            <ellipse
+              cx="62.6631"
+              cy="156.846"
+              rx="11.2548"
+              ry="11.2548"
+              transform="rotate(-135 62.6631 156.846)"
+              fill="url(#paint3_linear_303_933)"
             />
-            <Planet
-              shadow="false"
-              theme="dark"
-              size="1rem"
-              bottom="-10%"
-              right="13%"
-              mobSize="2.2rem"
-              mobBottom="-10%"
-              mobRight="13%"
+            <circle
+              cx="8.75195"
+              cy="141.991"
+              r="5.87207"
+              transform="rotate(-135 8.75195 141.991)"
+              fill="url(#paint4_linear_303_933)"
             />
-          </div>
+            <defs>
+              <linearGradient
+                id="paint0_linear_303_933"
+                x1="355.836"
+                y1="224.513"
+                x2="355.836"
+                y2="236.257"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#9C38FF" />
+                <stop offset="0.328125" stop-color="#671FAF" />
+                <stop offset="0.682292" stop-color="#340067" />
+                <stop offset="1" stop-color="#080010" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_303_933"
+                x1="301.926"
+                y1="204.276"
+                x2="301.926"
+                y2="226.785"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#9C38FF" />
+                <stop offset="0.328125" stop-color="#671FAF" />
+                <stop offset="0.682292" stop-color="#340067" />
+                <stop offset="1" stop-color="#080010" />
+              </linearGradient>
+              <linearGradient
+                id="paint2_linear_303_933"
+                x1="185.049"
+                y1="94.4537"
+                x2="185.049"
+                y2="251.042"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#9C38FF" />
+                <stop offset="0.328125" stop-color="#671FAF" />
+                <stop offset="0.682292" stop-color="#340067" />
+                <stop offset="1" stop-color="#080010" />
+              </linearGradient>
+              <linearGradient
+                id="paint3_linear_303_933"
+                x1="62.6631"
+                y1="145.591"
+                x2="62.6631"
+                y2="168.1"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#9C38FF" />
+                <stop offset="0.328125" stop-color="#671FAF" />
+                <stop offset="0.682292" stop-color="#340067" />
+                <stop offset="1" stop-color="#080010" />
+              </linearGradient>
+              <linearGradient
+                id="paint4_linear_303_933"
+                x1="8.75195"
+                y1="136.119"
+                x2="8.75195"
+                y2="147.863"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#9C38FF" />
+                <stop offset="0.328125" stop-color="#671FAF" />
+                <stop offset="0.682292" stop-color="#340067" />
+                <stop offset="1" stop-color="#080010" />
+              </linearGradient>
+            </defs>
+          </svg>
         </div>
         <h2>SKILLS</h2>
         <div class="wrapper">
@@ -101,7 +160,141 @@
     </section>
     <section id="logos" class="logos">
       <div class="container">
-        <h2>Logos</h2>
+        <div class="title">
+          <h2>
+            Logos
+            <div class="planets">
+              <svg
+                width="234"
+                height="172"
+                viewBox="0 0 234 172"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="Planets">
+                  <g id="planet-5">
+                    <circle
+                      id="Ellipse 5"
+                      cx="227.805"
+                      cy="16.1631"
+                      r="4.38112"
+                      transform="rotate(-135 227.805 16.1631)"
+                      fill="url(#paint0_linear_309_943)"
+                    />
+                  </g>
+                  <g id="planet-4">
+                    <circle
+                      id="Ellipse 5_2"
+                      cx="192.756"
+                      cy="38.799"
+                      r="8.39714"
+                      transform="rotate(-135 192.756 38.799)"
+                      fill="url(#paint1_linear_309_943)"
+                    />
+                  </g>
+                  <g id="planet-3">
+                    <circle
+                      id="Ellipse 5_3"
+                      cx="110.977"
+                      cy="82.611"
+                      r="58.4149"
+                      transform="rotate(-135 110.977 82.611)"
+                      fill="url(#paint2_linear_309_943)"
+                    />
+                  </g>
+                  <g id="planet-2">
+                    <ellipse
+                      id="Ellipse 5_4"
+                      cx="41.2432"
+                      cy="142.851"
+                      rx="8.39714"
+                      ry="8.39714"
+                      transform="rotate(-135 41.2432 142.851)"
+                      fill="url(#paint3_linear_309_943)"
+                    />
+                  </g>
+                  <g id="planet-1">
+                    <circle
+                      id="Ellipse 16"
+                      cx="6.19727"
+                      cy="165.486"
+                      r="4.38112"
+                      transform="rotate(-135 6.19727 165.486)"
+                      fill="url(#paint4_linear_309_943)"
+                    />
+                  </g>
+                </g>
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_309_943"
+                    x1="227.805"
+                    y1="11.7819"
+                    x2="227.805"
+                    y2="20.5442"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#3FFF9F" />
+                    <stop offset="0.328125" stop-color="#1FBA6C" />
+                    <stop offset="0.682292" stop-color="#006C36" />
+                    <stop offset="1" stop-color="#000F07" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint1_linear_309_943"
+                    x1="192.756"
+                    y1="30.4018"
+                    x2="192.756"
+                    y2="47.1961"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#3FFF9F" />
+                    <stop offset="0.328125" stop-color="#1FBA6C" />
+                    <stop offset="0.682292" stop-color="#006C36" />
+                    <stop offset="1" stop-color="#000F07" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint2_linear_309_943"
+                    x1="110.977"
+                    y1="24.1962"
+                    x2="110.977"
+                    y2="141.026"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#3FFF9F" />
+                    <stop offset="0.328125" stop-color="#1FBA6C" />
+                    <stop offset="0.682292" stop-color="#006C36" />
+                    <stop offset="1" stop-color="#000F07" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint3_linear_309_943"
+                    x1="41.2432"
+                    y1="134.454"
+                    x2="41.2432"
+                    y2="151.248"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#3FFF9F" />
+                    <stop offset="0.328125" stop-color="#1FBA6C" />
+                    <stop offset="0.682292" stop-color="#006C36" />
+                    <stop offset="1" stop-color="#000F07" />
+                  </linearGradient>
+                  <linearGradient
+                    id="paint4_linear_309_943"
+                    x1="6.19727"
+                    y1="161.105"
+                    x2="6.19727"
+                    y2="169.868"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#3FFF9F" />
+                    <stop offset="0.328125" stop-color="#1FBA6C" />
+                    <stop offset="0.682292" stop-color="#006C36" />
+                    <stop offset="1" stop-color="#000F07" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </h2>
+        </div>
         <div class="wrapper">
           <CardLogo
             :webData="item"
