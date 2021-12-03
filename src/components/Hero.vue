@@ -224,10 +224,12 @@
         Logo design
       </p>
       <div class="buttons">
-        <div class="button">Portfolio</div>
-        <div class="button button--secondary">Contact Me</div>
+        <div @click="scroll('websites')" class="button">Portfolio</div>
+        <div @click="scroll('contact')" class="button button--secondary">
+          Contact Me
+        </div>
       </div>
-      <div @click="scroll" class="scroll">
+      <div @click="scroll('skills')" class="scroll">
         <div class="ball"></div>
       </div>
     </div>
@@ -238,13 +240,8 @@
 export default {
   name: "Hero",
   methods: {
-    scroll() {
-      this.$scrollTo(document.getElementById("skills"), 400, {});
-    },
-  },
-  computed: {
-    mob() {
-      return window.innerWidth < 768;
+    scroll(val) {
+      this.$scrollTo(document.getElementById(val), 400, {});
     },
   },
 };

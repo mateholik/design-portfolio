@@ -12,8 +12,12 @@
         />
       </div>
       <div class="buttons">
-        <a :href="webData.linkFigma" class="button">Figma</a>
-        <a :href="webData.linkFigma" class="button button--secondary">
+        <a :href="webData.linkFigma" target="_blank" class="button">Figma</a>
+        <a
+          :href="webData.linkFigma"
+          target="_blank"
+          class="button button--secondary"
+        >
           <img :src="require('@/assets/img/download.svg')" alt="download" />
           PDF</a
         >

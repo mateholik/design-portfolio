@@ -305,17 +305,187 @@
       </div>
     </section>
     <section class="about">
-      <Planet
-        delay="800ms"
-        theme="light"
-        size="4rem"
-        top="53%"
-        left="26%"
-        mobSize="2.2rem"
-        mobBottom="8%"
-        mobLeft="35%"
-      />
       <div class="container">
+        <div class="planets">
+          <div class="blue">
+            <svg
+              width="222"
+              height="222"
+              viewBox="0 0 222 222"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="111.049"
+                cy="110.748"
+                r="78.2943"
+                transform="rotate(-135 111.049 110.748)"
+                fill="url(#paint0_linear_303_939)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_303_939"
+                  x1="111.049"
+                  y1="32.4537"
+                  x2="111.049"
+                  y2="189.042"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#9C38FF" />
+                  <stop offset="0.328125" stop-color="#671FAF" />
+                  <stop offset="0.682292" stop-color="#340067" />
+                  <stop offset="1" stop-color="#080010" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="green">
+            <svg
+              width="166"
+              height="166"
+              viewBox="0 0 166 166"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="82.9766"
+                cy="82.611"
+                r="58.4149"
+                transform="rotate(-135 82.9766 82.611)"
+                fill="url(#paint0_linear_309_948)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_309_948"
+                  x1="82.9766"
+                  y1="24.1962"
+                  x2="82.9766"
+                  y2="141.026"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#3FFF9F" />
+                  <stop offset="0.328125" stop-color="#1FBA6C" />
+                  <stop offset="0.682292" stop-color="#006C36" />
+                  <stop offset="1" stop-color="#000F07" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="multiple">
+            <svg
+              width="365"
+              height="373"
+              viewBox="0 0 365 373"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="355.836"
+                cy="230.385"
+                r="5.87207"
+                transform="rotate(-135 355.836 230.385)"
+                fill="url(#paint0_linear_303_933)"
+              />
+              <ellipse
+                cx="301.926"
+                cy="215.531"
+                rx="11.2548"
+                ry="11.2548"
+                transform="rotate(-135 301.926 215.531)"
+                fill="url(#paint1_linear_303_933)"
+              />
+              <circle
+                cx="185.049"
+                cy="172.748"
+                r="78.2943"
+                transform="rotate(-135 185.049 172.748)"
+                fill="url(#paint2_linear_303_933)"
+              />
+              <ellipse
+                cx="62.6631"
+                cy="156.846"
+                rx="11.2548"
+                ry="11.2548"
+                transform="rotate(-135 62.6631 156.846)"
+                fill="url(#paint3_linear_303_933)"
+              />
+              <circle
+                cx="8.75195"
+                cy="141.991"
+                r="5.87207"
+                transform="rotate(-135 8.75195 141.991)"
+                fill="url(#paint4_linear_303_933)"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_303_933"
+                  x1="355.836"
+                  y1="224.513"
+                  x2="355.836"
+                  y2="236.257"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#9C38FF" />
+                  <stop offset="0.328125" stop-color="#671FAF" />
+                  <stop offset="0.682292" stop-color="#340067" />
+                  <stop offset="1" stop-color="#080010" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear_303_933"
+                  x1="301.926"
+                  y1="204.276"
+                  x2="301.926"
+                  y2="226.785"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#9C38FF" />
+                  <stop offset="0.328125" stop-color="#671FAF" />
+                  <stop offset="0.682292" stop-color="#340067" />
+                  <stop offset="1" stop-color="#080010" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear_303_933"
+                  x1="185.049"
+                  y1="94.4537"
+                  x2="185.049"
+                  y2="251.042"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#9C38FF" />
+                  <stop offset="0.328125" stop-color="#671FAF" />
+                  <stop offset="0.682292" stop-color="#340067" />
+                  <stop offset="1" stop-color="#080010" />
+                </linearGradient>
+                <linearGradient
+                  id="paint3_linear_303_933"
+                  x1="62.6631"
+                  y1="145.591"
+                  x2="62.6631"
+                  y2="168.1"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#9C38FF" />
+                  <stop offset="0.328125" stop-color="#671FAF" />
+                  <stop offset="0.682292" stop-color="#340067" />
+                  <stop offset="1" stop-color="#080010" />
+                </linearGradient>
+                <linearGradient
+                  id="paint4_linear_303_933"
+                  x1="8.75195"
+                  y1="136.119"
+                  x2="8.75195"
+                  y2="147.863"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#9C38FF" />
+                  <stop offset="0.328125" stop-color="#671FAF" />
+                  <stop offset="0.682292" stop-color="#340067" />
+                  <stop offset="1" stop-color="#080010" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
         <div class="wrapper cool-border">
           <div class="title">ABOUT ME</div>
           <p>
@@ -391,7 +561,6 @@
 
 <script>
 import { required, email } from "vuelidate/lib/validators";
-import Planet from "@/components/PlanetComponent.vue";
 import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import CardSkill from "@/components/CardSkill.vue";
@@ -406,7 +575,6 @@ export default {
     CardWeb,
     CardLogo,
     Input,
-    Planet,
   },
   data() {
     return {
