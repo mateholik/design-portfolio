@@ -1,11 +1,11 @@
 <template>
-  <header :class="{ dark: open }">
+  <header :class="{ active: open }">
     <div class="container">
       <nav>
         <div class="logo">
           <img src="~@/assets/img/logo.svg" alt="logo" />
         </div>
-        <ul class="menu" :class="{ active: open }">
+        <ul class="menu-desktop">
           <li
             @click="scroll(item.link)"
             v-for="item in menuList"
@@ -26,6 +26,15 @@
           </button>
         </div>
       </nav>
+      <ul class="menu-mob">
+        <li
+          @click="scroll(item.link)"
+          v-for="item in menuList"
+          :key="item.title"
+        >
+          {{ item.title }}
+        </li>
+      </ul>
     </div>
   </header>
 </template>
@@ -61,6 +70,7 @@ export default {
   },
   methods: {
     scroll(val) {
+      if (this.open) this.open = false;
       this.$scrollTo(document.getElementById(val), 400, {});
     },
   },

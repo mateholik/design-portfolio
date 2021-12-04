@@ -14,7 +14,7 @@
       <div class="buttons">
         <a :href="webData.linkFigma" target="_blank" class="button">Figma</a>
         <a
-          :href="webData.linkFigma"
+          :href="webData.linkPdf"
           target="_blank"
           class="button button--secondary"
         >

@@ -2,18 +2,21 @@
 @import "settings";
 @import "burger";
 
-.dark {
-  background: #161616;
-}
 header {
   position: relative;
+ 
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10rem;
+    
     @include phone {
       height: 5.8rem;
+      position: relative;
+      z-index: 99;
+      margin: 0 -2rem;
+      padding: 0 2rem;
     }
     .logo {
       width: 14rem;
@@ -21,41 +24,16 @@ header {
         width: 10rem;
       }
     }
-    ul.menu {
+    .menu-desktop {
       display: flex;
       @include phone {
-        flex-direction: column;
-        position: absolute;
-        z-index: 999;
-        top: 0%;
-        left: 0;
-        width: 100%;
-        transition: 200ms;
-        opacity: 0;
-        pointer-events: none;
+        display: none;
       }
       li {
         margin-left: 5rem;
         cursor: pointer;
         font-weight: 600;
-        @include phone {
-          padding: 1.5rem 2rem;
-          font-size: 1.6rem;
-          margin-left: 0;
-          &:nth-child(even) {
-            background: #161616;
-          }
-          &:nth-child(odd) {
-            background: #343434;
-          }
-        }
       }
-    }
-    ul.active {
-      display: block;
-      top: 100%;
-      opacity: 1;
-      pointer-events: auto;
     }
     .burger {
       display: none;
@@ -63,6 +41,44 @@ header {
         display: block;
       }
     }
+  }
+  .menu-mob {
+    display: none;
+    @include phone {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 5.8rem;
+      left: 0;
+      width: 100%;
+      transition: 200ms;
+      pointer-events: none;
+      z-index: 98;
+      transform: translatex(-100%);
+    }
+    li {
+      cursor: pointer;
+      font-weight: 600;
+      padding: 1.5rem 2rem;
+      font-size: 1.6rem;
+      margin-left: 0;
+      &:nth-child(even) {
+        background: #161616;
+      }
+      &:nth-child(odd) {
+        background: #343434;
+      }
+    }
+  }
+  
+}
+.active {
+  nav {
+    background: #161616;
+  }
+  .menu-mob {
+    pointer-events: auto;
+    transform: translateX(0);
   }
 }
 

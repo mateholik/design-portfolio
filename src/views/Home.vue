@@ -611,7 +611,7 @@ export default {
           image: "moderna.jpeg",
           linkFigma:
             "https://www.figma.com/file/522ZJHxa6i49HbKKs1JLLd/Moderna",
-          linkPdf: "www.pdf.lt",
+          linkPdf: "./pdf/moderna.pdf",
         },
         {
           tag: "Jewelry page",
@@ -621,7 +621,7 @@ export default {
           image: "papuosk.jpeg",
           linkFigma:
             "https://www.figma.com/file/j4dnV3uvtAqP6vxC7d6b9f/Papuo%C5%A1k.lt?node-id=0%3A1",
-          linkPdf: "www.pdf.lt",
+          linkPdf: "./pdf/papuosk.pdf",
         },
         {
           tag: "Accommodation page",
@@ -631,7 +631,7 @@ export default {
           image: "ecohotel.jpeg",
           linkFigma:
             "https://www.figma.com/file/AJ111Znm1ki5XUhNjWwJrR/Ecohotel",
-          linkPdf: "www.pdf.lt",
+          linkPdf: "./pdf/ecohotel.pdf",
         },
         {
           tag: "Portfolio",
