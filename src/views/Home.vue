@@ -614,6 +614,16 @@ export default {
           linkPdf: "./pdf/moderna.pdf",
         },
         {
+          tag: "Portfolio",
+          title: "Maxdesign.online",
+          description:
+            "MaxDesign.online is a page where you can view all the current projects I have completed today.",
+          image: "maxdesign.jpeg",
+          linkFigma:
+            "https://www.figma.com/file/9AXA07QZaMlo1ehvfNFz72/Untitled?node-id=0%3A1",
+          linkPdf: "./pdf/portfolio.pdf",
+        },
+        {
           tag: "Jewelry page",
           title: "Papuosk.lt",
           description:
@@ -632,16 +642,6 @@ export default {
           linkFigma:
             "https://www.figma.com/file/AJ111Znm1ki5XUhNjWwJrR/Ecohotel",
           linkPdf: "./pdf/ecohotel.pdf",
-        },
-        {
-          tag: "Portfolio",
-          title: "Maxdesign.online",
-          description:
-            "MaxDesign.online is a page where you can view all the current projects I have completed today.",
-          image: "maxdesign.jpeg",
-          linkFigma:
-            "https://www.figma.com/file/9AXA07QZaMlo1ehvfNFz72/Untitled?node-id=0%3A1",
-          linkPdf: "www.pdf.lt",
         },
       ],
       bannersData: [

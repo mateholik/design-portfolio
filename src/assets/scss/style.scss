@@ -4,13 +4,13 @@
 
 header {
   position: relative;
- 
+
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10rem;
-    
+
     @include phone {
       height: 5.8rem;
       position: relative;
@@ -55,6 +55,7 @@ header {
       pointer-events: none;
       z-index: 98;
       transform: translatex(-100%);
+      background: #222;
     }
     li {
       cursor: pointer;
@@ -70,7 +71,6 @@ header {
       }
     }
   }
-  
 }
 .active {
   nav {
@@ -381,13 +381,15 @@ header {
   }
 }
 .logos {
-  padding-bottom: 0;
   .title {
     display: flex;
     justify-content: center;
     h2 {
       display: inline-block;
       position: relative;
+      @include phone {
+        margin-bottom: 4rem;
+      }
       .planets {
         position: absolute;
         top: -36px;
@@ -422,16 +424,10 @@ header {
       padding: 0 4rem;
       border-radius: 2rem;
       z-index: 2;
-      @include phone {
-        margin-bottom: 8rem;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-      }
       &-wrap {
         width: 100%;
         max-width: 35rem;
         padding: 0 4rem;
-        margin-bottom: 8rem;
 
         @include phone {
           width: 100%;
@@ -439,43 +435,6 @@ header {
           margin: auto;
           margin-bottom: 4rem;
           text-align: center;
-        }
-      }
-      &:hover {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-      }
-
-      .holder {
-        position: absolute;
-        opacity: 0;
-        pointer-events: none;
-        background: #212121;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: auto;
-        transform: translateY(0);
-        transition: 0.2s;
-        padding: 2rem;
-        border-bottom-left-radius: 2rem;
-        border-bottom-right-radius: 2rem;
-        @include phone {
-          transform: translateY(100%);
-          opacity: 1;
-        }
-        .buttons {
-          @include center;
-          justify-content: flex-start;
-          @include phone {
-            justify-content: center;
-          }
-          .button {
-            min-width: 10rem;
-          }
-          .button--secondary {
-            margin-left: 2.6rem;
-          }
         }
       }
     }
