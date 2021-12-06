@@ -620,7 +620,7 @@ export default {
             "Papuosk.lt is a page of various handmade jewelry for everyone who wants to buy original jewelry. ",
           image: "papuosk.jpeg",
           linkFigma:
-            "https://www.figma.com/file/j4dnV3uvtAqP6vxC7d6b9f/Papuo%C5%A1k.lt?node-id=0%3A1",
+            "https://www.figma.com/file/pp0XyH8fbRivqZmRw9J1Qv/Papuosk.lt?node-id=0%3A1",
           linkPdf: "./pdf/papuosk.pdf",
         },
         {
