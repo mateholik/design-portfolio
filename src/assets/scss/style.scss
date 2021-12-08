@@ -5,13 +5,13 @@
 
 header {
   position: relative;
- 
+
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10rem;
-    
+
     @include phone {
       height: 5.8rem;
       position: relative;
@@ -56,6 +56,7 @@ header {
       pointer-events: none;
       z-index: 98;
       transform: translatex(-100%);
+      background: #222;
     }
     li {
       cursor: pointer;
@@ -71,7 +72,6 @@ header {
       }
     }
   }
-  
 }
 .active {
   nav {
@@ -382,13 +382,15 @@ header {
   }
 }
 .logos {
-  padding-bottom: 0;
   .title {
     display: flex;
     justify-content: center;
     h2 {
       display: inline-block;
       position: relative;
+      @include phone {
+        margin-bottom: 4rem;
+      }
       .planets {
         position: absolute;
         top: -36px;
@@ -427,7 +429,6 @@ header {
         width: 100%;
         max-width: 35rem;
         padding: 0 4rem;
-        margin-bottom: 8rem;
 
         @include phone {
           width: 100%;
