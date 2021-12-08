@@ -92,7 +92,8 @@ img {
 }
 
 section {
-  padding: 7.5rem 0;
+  padding-bottom: 7.5rem;
+  padding-top: 4.5rem;
   @include phone {
     padding: 3rem 0;
   }

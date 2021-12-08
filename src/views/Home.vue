@@ -648,10 +648,10 @@ export default {
         },
       ],
       bannersData: [
-        "banner-1.png",
-        "banner-2.png",
-        "banner-3.png",
-        "banner-4.png",
+        "banner-1.jpeg",
+        "banner-2.jpeg",
+        "banner-3.jpeg",
+        "banner-4.jpeg",
       ],
       logosData: [
         {
