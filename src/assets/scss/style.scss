@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import "reset";
 @import "settings";
 @import "burger";
@@ -32,7 +33,7 @@ header {
       li {
         margin-left: 5rem;
         cursor: pointer;
-        font-weight: 600;
+        font-weight: 700;
       }
     }
     .burger {
@@ -208,7 +209,7 @@ header {
       &-wrap {
         width: calc(min(33.33%, 39rem));
         padding: 0 2rem;
-        max-width: 33rem;
+        max-width: 36rem;
         @include phone {
           width: 100%;
           max-width: 40rem;
@@ -287,7 +288,7 @@ header {
         width: calc(min(50%, 60rem));
         padding: 0 2rem;
         margin-bottom: 8rem;
-        max-width: 50rem;
+        max-width: 56rem;
         @include phone {
           width: 100%;
           max-width: 40rem;
@@ -366,7 +367,7 @@ header {
       width: calc(min(50%, 60rem));
       padding: 0 2rem;
       margin-bottom: 8rem;
-      max-width: 50rem;
+      max-width: 50 rem;
       @include phone {
         width: 100%;
         max-width: 40rem;
@@ -411,12 +412,7 @@ header {
     margin: 0 -2rem;
     .item {
       position: relative;
-      background: linear-gradient(
-        287.66deg,
-        rgba(78, 78, 78, 0.1) 0%,
-        rgba(78, 78, 78, 0.4) 100%
-      );
-      backdrop-filter: blur(1rem);
+      background: black;
       height: 21rem;
       display: flex;
       padding: 0 4rem;
@@ -424,8 +420,8 @@ header {
       z-index: 2;
       @include phone {
         margin-bottom: 8rem;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+        // border-bottom-left-radius: 0;
+        // border-bottom-right-radius: 0;
       }
       &-wrap {
         width: 100%;
@@ -440,10 +436,6 @@ header {
           margin-bottom: 4rem;
           text-align: center;
         }
-      }
-      &:hover {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
       }
 
       .holder {
@@ -538,11 +530,7 @@ header {
   .wrapper {
     position: relative;
     padding: 4rem;
-    background: linear-gradient(
-      287.66deg,
-      rgba(78, 78, 78, 0.1) 0%,
-      rgba(78, 78, 78, 0.4) 100%
-    );
+    background: linear-gradient(287.66deg, rgba(0, 0, 0, 0.1) 0%, rgba(43, 43, 43, 0.4) 100%);
     backdrop-filter: blur(1rem);
     border-radius: 2rem;
     @include phone {
@@ -569,6 +557,7 @@ header {
 .contact {
   .wrapper {
     @include center;
+    align-items: end;
     @include phone {
       display: block;
       max-width: 36rem;
@@ -583,7 +572,7 @@ header {
     .socials {
       margin-bottom: 3.8rem;
       @include phone {
-        margin-bottom: 2.6rem;
+        margin-bottom: 3.6rem;
       }
       a {
         @include center;
@@ -617,6 +606,53 @@ header {
     width: 50%;
     @include phone {
       width: 100%;
+    }
+    img {
+      width: 84%;
+      margin-bottom: 70px;
+      margin-left: auto;
+      @include phone {
+        display: block;
+        max-width: 36rem;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+footer {
+  padding: 10rem 0;
+  background: #000;
+  @include phone {
+    padding: 7rem 0;
+  }
+  .logo {
+    max-width: 14rem;
+    @include phone {
+      max-width: 10rem;
+      margin-bottom: 3.5rem;
+    }
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    @include phone {
+      display: block;
+    }
+  }
+  ul {
+    display: flex;
+    @include phone {
+      display: block;
+    }
+  }
+  li {
+    margin-left: 5rem;
+    cursor: pointer;
+    font-weight: 700;
+    @include phone {
+      margin-left: 0;
+      margin-bottom: 2rem;
     }
   }
 }

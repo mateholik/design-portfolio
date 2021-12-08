@@ -535,7 +535,7 @@
                   type="submit"
                   :disabled="submitStatus === 'PENDING'"
                 >
-                  Submit!
+                  Send!
                 </button>
               </div>
 
@@ -556,6 +556,7 @@
         </div>
       </div>
     </section>
+    <Footer />
   </div>
 </template>
 
@@ -567,6 +568,7 @@ import CardSkill from "@/components/CardSkill.vue";
 import CardWeb from "@/components/CardWeb.vue";
 import CardLogo from "@/components/CardLogo.vue";
 import Input from "@/components/Input.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   components: {
     Header,
@@ -575,6 +577,7 @@ export default {
     CardWeb,
     CardLogo,
     Input,
+    Footer,
   },
   data() {
     return {
@@ -686,7 +689,7 @@ export default {
           },
           {
             icon: "whatsup.svg",
-            title: "Whats up",
+            title: "WhatsApp",
             link: "https://wa.me/+37067791332",
           },
         ],

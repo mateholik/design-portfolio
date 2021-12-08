@@ -1,15 +1,11 @@
 <template>
-  <div class="item-wrap" :class="{ active: hover }">
-    <div
-      @mouseover="hover = true"
-      @mouseleave="hover = false"
-      class="item cool-border"
-    >
+  <div class="item-wrap">
+    <div class="item cool-border">
       <img
         :src="require('@/assets/img/' + webData.image)"
         :alt="webData.title"
       />
-      <div class="holder cool-border">
+      <!-- <div class="holder cool-border">
         <div class="title">{{ webData.title }}</div>
         <p>{{ webData.description }}</p>
         <div class="buttons">
@@ -21,7 +17,7 @@
             />PDF</a
           >
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

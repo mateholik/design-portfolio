@@ -216,8 +216,8 @@
     </div>
     <div class="container">
       <h1>
-        WEB DESIGN EXPERIENCE <br />
-        YOU ARE LOOKING FOR
+        WEB DESIGN EXPERIENCE YOU <br />
+        ARE LOOKING FOR
       </h1>
       <p>
         Performing UI / UX design <br />
