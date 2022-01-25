@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "footer",
+  name: "Footer",
   data() {
     return {
       open: false,
@@ -57,5 +57,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

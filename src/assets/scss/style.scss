@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import "reset";
 @import "settings";
 @import "burger";
@@ -262,6 +262,7 @@ header {
         font-size: 1.8rem;
         position: relative;
         padding-left: 2.2rem;
+        line-height: 1.4;
         &:not(:last-of-type) {
           margin-bottom: 0.8rem;
         }
@@ -419,6 +420,7 @@ header {
   .wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0 -2rem;
     .item {
       position: relative;
@@ -429,7 +431,7 @@ header {
       border-radius: 2rem;
       z-index: 2;
       @include phone {
-        margin-bottom: 8rem;
+        // margin-bottom: 8rem;
         // border-bottom-left-radius: 0;
         // border-bottom-right-radius: 0;
       }
@@ -539,7 +541,11 @@ header {
   .wrapper {
     position: relative;
     padding: 4rem;
-    background: linear-gradient(287.66deg, rgba(0, 0, 0, 0.1) 0%, rgba(43, 43, 43, 0.4) 100%);
+    background: linear-gradient(
+      287.66deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(43, 43, 43, 0.4) 100%
+    );
     backdrop-filter: blur(1rem);
     border-radius: 2rem;
     @include phone {

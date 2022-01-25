@@ -489,10 +489,10 @@
         <div class="wrapper cool-border">
           <div class="title">ABOUT ME</div>
           <p>
-            I am a meticulous, ambitious UI / UX designer looking for customer
-            collaboration. I feel a passion for creating any design. If you are
-            looking for something beautiful for yourself and your company, get
-            in touch.
+            I am a meticulous and ambitious UX/UI designer, who is looking for
+            customers collaboration. I feel a passion for creating responsive,
+            modern and code ready designs. If you are looking for something
+            beautiful for yourself or your company, please get in touch with me.
           </p>
         </div>
       </div>
@@ -587,17 +587,17 @@ export default {
       skillsData: [
         {
           logo: "design",
-          title: "UI/UX design:",
+          title: "UX/UI design:",
           items: [
-            "Create web pages",
-            "Rearrange existing pages",
-            "Create portfolios",
+            "WEB design creation",
+            "Old web pages update",
+            "Components, options, autolayouts",
           ],
         },
         {
           logo: "logos",
           title: "Logos:",
-          items: ["Create logos", "Rearrange existing logos "],
+          items: ["Logos creation", "Old logos update"],
         },
         {
           logo: "programs",
@@ -617,6 +617,16 @@ export default {
           linkPdf: "./pdf/moderna.pdf",
         },
         {
+          tag: "Auction page",
+          title: "evgauto.lt",
+          description:
+            "In this page the buyer offering the highest price for the vehicle is found in the shortest possible time.",
+          image: "evgauto.jpg",
+          linkFigma:
+            "https://www.figma.com/file/TfaCaBETRLihK6Q1VGDwls/evgauto?node-id=0%3A1",
+          linkPdf: "./pdf/evgauto.pdf",
+        },
+        {
           tag: "Portfolio",
           title: "Maxdesign.online",
           description:
@@ -627,13 +637,23 @@ export default {
           linkPdf: "./pdf/portfolio.pdf",
         },
         {
+          tag: "Material page",
+          title: "ecoplast.lt",
+          description:
+            "A page about Monolithic Polycarbonate - the strongest transparent material with an extremely wide range of applications.",
+          image: "ecoplast.jpg",
+          linkFigma:
+            "https://www.figma.com/file/9UZY23Xw7K4KizG0UrSldX/Ecoplast.lt",
+          linkPdf: "./pdf/ecoplast.pdf",
+        },
+        {
           tag: "Jewelry page",
           title: "Papuosk.lt",
           description:
             "Papuosk.lt is a page of various handmade jewelry for everyone who wants to buy original jewelry. ",
           image: "papuosk.jpeg",
           linkFigma:
-            "https://www.figma.com/file/pp0XyH8fbRivqZmRw9J1Qv/Papuosk.lt?node-id=0%3A1",
+            "https://www.figma.com/file/ndZ5dyxEYsn0SBmq7RdHxC/Papuosk.lt",
           linkPdf: "./pdf/papuosk.pdf",
         },
         {
@@ -655,12 +675,17 @@ export default {
       ],
       logosData: [
         {
-          image: "svara.svg",
+          image: "evgauto.svg",
           linkFigma: "www.figma.lt",
           linkPdf: "www.pdf.lt",
         },
         {
           image: "papuosk.svg",
+          linkFigma: "www.figma.lt",
+          linkPdf: "www.pdf.lt",
+        },
+        {
+          image: "svara.svg",
           linkFigma: "www.figma.lt",
           linkPdf: "www.pdf.lt",
         },
