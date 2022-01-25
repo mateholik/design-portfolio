@@ -150,6 +150,7 @@
             :key="`banner-${i}`"
           >
             <img
+              loading="lazy"
               class="cool-border"
               :src="require('@/assets/img/' + img)"
               alt=""
@@ -551,7 +552,11 @@
             </form>
           </div>
           <div class="right">
-            <img :src="require('@/assets/img/contact.svg')" alt="" />
+            <img
+              loading="lazy"
+              :src="require('@/assets/img/contact.svg')"
+              alt=""
+            />
           </div>
         </div>
       </div>

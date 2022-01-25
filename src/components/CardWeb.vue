@@ -7,6 +7,7 @@
 
       <div class="img-wrapper cool-border">
         <img
+          loading="lazy"
           :src="require('@/assets/img/' + webData.image)"
           :alt="webData.title"
         />
