@@ -7,8 +7,7 @@
         :href="`https://${webData.title}`"
         target="_blank"
         v-else
-        class="title"
-        style="text-decoration: underline; color: white"
+        class="title title--link"
       >
         {{ webData.title }}
       </a>
