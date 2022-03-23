@@ -2,7 +2,16 @@
   <div class="item-wrap">
     <div class="item">
       <div class="tag">{{ webData.tag }}</div>
-      <div class="title">{{ webData.title }}</div>
+      <div v-if="!webData.live" class="title">{{ webData.title }}</div>
+      <a
+        :href="`https://${webData.title}`"
+        target="_blank"
+        v-else
+        class="title"
+        style="text-decoration: underline; color: white"
+      >
+        {{ webData.title }}
+      </a>
       <p>{{ webData.description }}</p>
 
       <div class="img-wrapper cool-border">

@@ -612,10 +612,20 @@ export default {
       ],
       websData: [
         {
-          tag: "Technology page ",
-          title: "Moderna.com",
+          tag: "Social platform",
+          title: "Recipes project",
           description:
-            "Moderna.com is a modern design web page, designed to acquire the latest technology. ",
+            "Food recipes platform. Share with other people and create your own recipes depending on products you have.",
+          image: "recipes.jpeg",
+          linkFigma:
+            "https://www.figma.com/file/Via19Olqbo4Lcf8Jpnbzhu/Food-world?node-id=0%3A1",
+          linkPdf: "./pdf/recipes.pdf",
+        },
+        {
+          tag: "E-shop",
+          title: "Technology project",
+          description:
+            "Moderna is a modern design web page, designed to acquire the latest technology. ",
           image: "moderna.jpeg",
           linkFigma:
             "https://www.figma.com/file/522ZJHxa6i49HbKKs1JLLd/Moderna",
@@ -623,7 +633,7 @@ export default {
         },
         {
           tag: "Auction page",
-          title: "evgauto.lt",
+          title: "EVG auto",
           description:
             "In this page the buyer offering the highest price for the vehicle is found in the shortest possible time.",
           image: "evgauto.jpg",
@@ -633,7 +643,8 @@ export default {
         },
         {
           tag: "Portfolio",
-          title: "Maxdesign.online",
+          title: "maxdesign.online",
+          live: true,
           description:
             "MaxDesign.online is a page where you can view all the current projects I have completed today.",
           image: "maxdesign.jpeg",
@@ -642,8 +653,9 @@ export default {
           linkPdf: "./pdf/portfolio.pdf",
         },
         {
-          tag: "Material page",
+          tag: "Representative website",
           title: "ecoplast.lt",
+          live: "true",
           description:
             "A page about Monolithic Polycarbonate - the strongest transparent material with an extremely wide range of applications.",
           image: "ecoplast.jpg",
@@ -652,7 +664,7 @@ export default {
           linkPdf: "./pdf/ecoplast.pdf",
         },
         {
-          tag: "Jewelry page",
+          tag: "E-shop",
           title: "Papuosk.lt",
           description:
             "Papuosk.lt is a page of various handmade jewelry for everyone who wants to buy original jewelry. ",
@@ -662,7 +674,7 @@ export default {
           linkPdf: "./pdf/papuosk.pdf",
         },
         {
-          tag: "Accommodation page",
+          tag: "Representative website",
           title: "Ecohotel.lt",
           description:
             "Ecohotel.lt is a page for those who like to relax by the sea. Our hotel offers you unforgettable memories. ",
