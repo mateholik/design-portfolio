@@ -632,6 +632,16 @@ export default {
           linkPdf: "./pdf/moderna.pdf",
         },
         {
+          tag: "Mobile app",
+          title: "IDEAS",
+          description:
+            "In this page you can add some ideas to make your own town look better.",
+          image: "app.jpg",
+          linkFigma:
+            "https://www.figma.com/file/W2kVvBgROTMl6o8QC54Qep/Appsas?node-id=0%3A1",
+          linkPdf: "./pdf/app.pdf",
+        },
+        {
           tag: "Auction page",
           title: "EVG auto",
           description:
@@ -651,6 +661,16 @@ export default {
           linkFigma:
             "https://www.figma.com/file/9AXA07QZaMlo1ehvfNFz72/Untitled?node-id=0%3A1",
           linkPdf: "./pdf/portfolio.pdf",
+        },
+
+        {
+          tag: "PORTFOLIO",
+          title: "audronyte.lt",
+          description: "It’s a page of some self painted art projects",
+          image: "portfolio-minimal.jpg",
+          linkFigma:
+            "https://www.figma.com/file/BynEHWEkkMf2Rwv7GjdHmn/Untitled?node-id=0%3A1",
+          linkPdf: "./pdf/portfolio-minimal.pdf",
         },
         {
           tag: "Representative website",
@@ -673,22 +693,14 @@ export default {
             "https://www.figma.com/file/ndZ5dyxEYsn0SBmq7RdHxC/Papuosk.lt",
           linkPdf: "./pdf/papuosk.pdf",
         },
-        {
-          tag: "Representative website",
-          title: "Ecohotel.lt",
-          description:
-            "Ecohotel.lt is a page for those who like to relax by the sea. Our hotel offers you unforgettable memories. ",
-          image: "ecohotel.jpeg",
-          linkFigma:
-            "https://www.figma.com/file/AJ111Znm1ki5XUhNjWwJrR/Ecohotel",
-          linkPdf: "./pdf/ecohotel.pdf",
-        },
       ],
       bannersData: [
-        "banner-1.jpeg",
-        "banner-2.jpeg",
-        "banner-3.jpeg",
+        "banner-5.jpg",
         "banner-4.jpeg",
+        "banner-1.jpg",
+        "banner-2.jpg",
+        "banner-3.jpg",
+        "banner-6.jpeg",
       ],
       logosData: [
         {
