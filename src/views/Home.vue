@@ -633,10 +633,10 @@ export default {
         },
         {
           tag: "Mobile app",
-          title: "IDEAS",
+          title: "Ideas",
           description:
             "In this page you can add some ideas to make your own town look better.",
-          image: "app.jpg",
+          image: "app.jpeg",
           linkFigma:
             "https://www.figma.com/file/W2kVvBgROTMl6o8QC54Qep/Appsas?node-id=0%3A1",
           linkPdf: "./pdf/app.pdf",

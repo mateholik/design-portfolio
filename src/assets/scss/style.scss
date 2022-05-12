@@ -292,6 +292,10 @@ header {
     flex-wrap: wrap;
     margin: 0 -2rem;
     .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
       &-wrap {
         width: calc(min(50%, 60rem));
         padding: 0 2rem;
