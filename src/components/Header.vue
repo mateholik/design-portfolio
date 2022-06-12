@@ -62,6 +62,10 @@ export default {
           link: "logos",
         },
         {
+          title: "Prices",
+          link: "prices",
+        },
+        {
           title: "Contact",
           link: "contact",
         },

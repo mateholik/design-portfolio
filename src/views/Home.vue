@@ -498,7 +498,7 @@
         </div>
       </div>
     </section>
-    <section class="prices">
+    <section id="prices" class="prices">
       <div class="container">
         <h2>Prices</h2>
         <div class="wrapper">
