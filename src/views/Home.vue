@@ -498,6 +498,18 @@
         </div>
       </div>
     </section>
+    <section class="prices">
+      <div class="container">
+        <h2>Prices</h2>
+        <div class="wrapper">
+          <CardPrice
+            :priceData="item"
+            v-for="(item, i) in pricesData"
+            :key="`price-${i}`"
+          />
+        </div>
+      </div>
+    </section>
     <section id="contact" class="contact">
       <div class="container">
         <div class="wrapper">
@@ -571,6 +583,7 @@ import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import CardSkill from "@/components/CardSkill.vue";
 import CardWeb from "@/components/CardWeb.vue";
+import CardPrice from "@/components/CardPrice.vue";
 import CardLogo from "@/components/CardLogo.vue";
 import Input from "@/components/Input.vue";
 import Footer from "@/components/Footer.vue";
@@ -580,6 +593,7 @@ export default {
     Hero,
     CardSkill,
     CardWeb,
+    CardPrice,
     CardLogo,
     Input,
     Footer,
@@ -633,7 +647,7 @@ export default {
         },
         {
           tag: "Mobile app",
-          title: "Ideas",
+          title: "Google map based app",
           description:
             "In this page you can add some ideas to make your own town look better.",
           image: "app.jpeg",
@@ -646,42 +660,30 @@ export default {
           title: "EVG auto",
           description:
             "In this page the buyer offering the highest price for the vehicle is found in the shortest possible time.",
-          image: "evgauto.jpg",
+          image: "evgauto.jpeg",
           linkFigma:
             "https://www.figma.com/file/TfaCaBETRLihK6Q1VGDwls/evgauto?node-id=0%3A1",
           linkPdf: "./pdf/evgauto.pdf",
         },
         {
-          tag: "Portfolio",
-          title: "maxdesign.online",
-          live: true,
+          tag: "E-shop",
+          title: "Lucky tackle fishing shop",
           description:
-            "MaxDesign.online is a page where you can view all the current projects I have completed today.",
-          image: "maxdesign.jpeg",
+            "There you can buy really good  items for fishing and their accessories.",
+          image: "luckytackle.jpeg",
           linkFigma:
-            "https://www.figma.com/file/9AXA07QZaMlo1ehvfNFz72/Untitled?node-id=0%3A1",
-          linkPdf: "./pdf/portfolio.pdf",
+            "https://www.figma.com/file/TfaCaBETRLihK6Q1VGDwls/evgauto?node-id=0%3A1",
+          linkPdf: "./pdf/evgauto.pdf",
         },
-
         {
           tag: "PORTFOLIO",
-          title: "audronyte.lt",
+          title: "linaaudronyte.lt",
+          live: "true",
           description: "It’s a page of some self painted art projects",
-          image: "portfolio-minimal.jpg",
+          image: "portfolio-minimal.jpeg",
           linkFigma:
             "https://www.figma.com/file/BynEHWEkkMf2Rwv7GjdHmn/Untitled?node-id=0%3A1",
           linkPdf: "./pdf/portfolio-minimal.pdf",
-        },
-        {
-          tag: "Representative website",
-          title: "ecoplast.lt",
-          live: "true",
-          description:
-            "A page about Monolithic Polycarbonate - the strongest transparent material with an extremely wide range of applications.",
-          image: "ecoplast.jpg",
-          linkFigma:
-            "https://www.figma.com/file/9UZY23Xw7K4KizG0UrSldX/Ecoplast.lt",
-          linkPdf: "./pdf/ecoplast.pdf",
         },
         {
           tag: "E-shop",
@@ -693,13 +695,24 @@ export default {
             "https://www.figma.com/file/ndZ5dyxEYsn0SBmq7RdHxC/Papuosk.lt",
           linkPdf: "./pdf/papuosk.pdf",
         },
+        {
+          tag: "Representative website",
+          title: "ecoplast.lt",
+          live: "true",
+          description:
+            "A page about Monolithic Polycarbonate - the strongest transparent material with an extremely wide range of applications.",
+          image: "ecoplast.jpeg",
+          linkFigma:
+            "https://www.figma.com/file/9UZY23Xw7K4KizG0UrSldX/Ecoplast.lt",
+          linkPdf: "./pdf/ecoplast.pdf",
+        },
       ],
       bannersData: [
-        "banner-5.jpg",
+        "banner-1.jpeg",
+        "banner-2.jpeg",
+        "banner-3.jpeg",
         "banner-4.jpeg",
-        "banner-1.jpg",
-        "banner-2.jpg",
-        "banner-3.jpg",
+        "banner-5.jpeg",
         "banner-6.jpeg",
       ],
       logosData: [
@@ -717,6 +730,44 @@ export default {
           image: "svara.svg",
           linkFigma: "www.figma.lt",
           linkPdf: "www.pdf.lt",
+        },
+      ],
+      pricesData: [
+        {
+          title: "Landing page",
+          price: "80-170€",
+        },
+        {
+          title: "Representative website (2-5 pages)",
+          price: "120-250€",
+        },
+        {
+          title: "Representative website (5-9 pages)",
+          price: "250-350€",
+        },
+        {
+          title: "Representative website (10-more pages)",
+          price: "350-500€",
+        },
+        {
+          title: "E-shop",
+          price: "220-320€",
+        },
+        {
+          title: "Mobile app",
+          price: "140-240€",
+        },
+        {
+          title: "Facebook ad banner",
+          price: "10€",
+        },
+        {
+          title: "Facebook cover photo",
+          price: "10€",
+        },
+        {
+          title: "Logo",
+          price: "40-120€",
         },
       ],
       contacts: {
@@ -749,12 +800,12 @@ export default {
         ],
         inputs: [
           {
-            label: "Email",
+            label: "E-mail:",
             errorEmpty: "Please fill input",
             errorEmail: "Invalid email",
           },
           {
-            label: "Message",
+            label: "Message:",
             errorEmpty: "Please fill input",
           },
         ],

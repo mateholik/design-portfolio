@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "CardExample",
+  name: "CardSkill",
   props: {
     skillData: {
       type: Object,
