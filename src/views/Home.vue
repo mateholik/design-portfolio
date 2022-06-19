@@ -498,7 +498,7 @@
         </div>
       </div>
     </section>
-    <section id="prices" class="prices">
+    <!-- <section id="prices" class="prices">
       <div class="container">
         <h2>Prices</h2>
         <div class="wrapper">
@@ -509,7 +509,7 @@
           />
         </div>
       </div>
-    </section>
+    </section> -->
     <section id="contact" class="contact">
       <div class="container">
         <div class="wrapper">
@@ -583,7 +583,7 @@ import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import CardSkill from "@/components/CardSkill.vue";
 import CardWeb from "@/components/CardWeb.vue";
-import CardPrice from "@/components/CardPrice.vue";
+// import CardPrice from "@/components/CardPrice.vue";
 import CardLogo from "@/components/CardLogo.vue";
 import Input from "@/components/Input.vue";
 import Footer from "@/components/Footer.vue";
@@ -593,7 +593,7 @@ export default {
     Hero,
     CardSkill,
     CardWeb,
-    CardPrice,
+    // CardPrice,
     CardLogo,
     Input,
     Footer,

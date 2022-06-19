@@ -61,10 +61,10 @@ export default {
           title: "Logos",
           link: "logos",
         },
-        {
-          title: "Prices",
-          link: "prices",
-        },
+        // {
+        //   title: "Prices",
+        //   link: "prices",
+        // },
         {
           title: "Contact",
           link: "contact",
@@ -75,7 +75,7 @@ export default {
   methods: {
     scroll(val) {
       if (this.open) this.open = false;
-      this.$scrollTo(document.getElementById(val), 400, {});
+      this.$scrollTo(document.getElementById(val), 400, { offset: -100 });
     },
   },
 };
