@@ -3,21 +3,21 @@
 @import "settings";
 @import "burger";
 header {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    #0c161e;
+  background: #182b6c;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 99;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.4rem 0;
-
     @include phone {
-      height: 5.8rem;
+      height: 5.5rem;
       position: relative;
       z-index: 99;
       margin: 0 -2rem;
@@ -26,7 +26,7 @@ header {
     .logo {
       width: 14rem;
       @include phone {
-        width: 10rem;
+        width: 10.4rem;
       }
     }
     .menu-desktop {
@@ -34,15 +34,55 @@ header {
       @include phone {
         display: none;
       }
-      li {
+      li.item {
         margin-left: 5rem;
         cursor: pointer;
         font-weight: 600;
         transition: 200ms;
         font-size: 2rem;
         color: $textColor;
+        position: relative;
+        padding: 2.4rem 0;
         &:hover {
           color: $secondaryColor;
+          .sub-menu {
+            display: block;
+          }
+          img {
+            transform: rotate(180deg);
+          }
+        }
+        .sub-menu {
+          display: none;
+          position: absolute;
+          top: 6rem;
+          left: 0;
+          width: 100%;
+          border-radius: 6px 6px 0px 0px;
+          overflow: hidden;
+          li {
+            transition: 200ms;
+            background: linear-gradient(180deg, #223b96 85.42%, #152253 100%);
+            font-weight: 600;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+            padding: 1.2rem 1.6rem;
+            color: white;
+            &:hover {
+              color: $secondaryColor;
+            }
+          }
+        }
+      }
+      li.has-submenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+          width: 1.2rem;
+          height: 0.7rem;
+          margin-left: 0.8rem;
+          transition: 200ms;
         }
       }
     }
@@ -82,11 +122,11 @@ header {
       }
     }
   }
+  .hamburger {
+    padding-right: 0;
+  }
 }
 .active {
-  nav {
-    background: #161616;
-  }
   .menu-mob {
     pointer-events: auto;
     transform: translateX(0);

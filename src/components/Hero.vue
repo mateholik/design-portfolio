@@ -227,7 +227,14 @@ export default {
   name: "Hero",
   methods: {
     scroll(val) {
-      this.$scrollTo(document.getElementById(val), 400, {});
+      this.$scrollTo(document.getElementById(val), 400, {
+        offset: this.offset,
+      });
+    },
+  },
+  computed: {
+    offset() {
+      return window.innerWidth > 768 ? -100 : -50;
     },
   },
 };

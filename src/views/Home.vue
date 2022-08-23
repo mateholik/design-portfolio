@@ -305,7 +305,7 @@
         </div>
       </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
       <div class="container">
         <div class="planets">
           <div class="blue">

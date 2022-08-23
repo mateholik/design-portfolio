@@ -7,11 +7,27 @@
         </div>
         <ul class="menu-desktop">
           <li
-            @click="scroll(item.link)"
+            @click="scroll(item)"
             v-for="item in menuList"
             :key="item.title"
+            class="item"
+            :class="{ 'has-submenu': item.subMenu }"
           >
             {{ item.title }}
+            <img
+              v-if="item.subMenu"
+              :src="require('@/assets/img/menu-arrow.svg')"
+              alt="arrow"
+            />
+            <ul v-if="item.subMenu" class="sub-menu">
+              <li
+                v-for="subItem in item.subMenu"
+                :key="subItem.title"
+                @click="scroll(subItem)"
+              >
+                {{ subItem.title }}
+              </li>
+            </ul>
           </li>
         </ul>
         <div @click="open = !open" class="burger">
@@ -50,21 +66,26 @@ export default {
           link: "skills",
         },
         {
-          title: "Websites",
-          link: "websites",
+          title: "Work examples",
+          subMenu: [
+            {
+              title: "Websites",
+              link: "websites",
+            },
+            {
+              title: "Banners",
+              link: "banners",
+            },
+            {
+              title: "Logos",
+              link: "logos",
+            },
+          ],
         },
         {
-          title: "Banners",
-          link: "banners",
+          title: "About",
+          link: "about",
         },
-        {
-          title: "Logos",
-          link: "logos",
-        },
-        // {
-        //   title: "Prices",
-        //   link: "prices",
-        // },
         {
           title: "Contact",
           link: "contact",
@@ -73,9 +94,15 @@ export default {
     };
   },
   methods: {
-    scroll(val) {
+    scroll(item) {
+      if (item.subMenu) return;
       if (this.open) this.open = false;
-      this.$scrollTo(document.getElementById(val), 400, { offset: -100 });
+      this.$scrollTo(document.getElementById(item.link), 400, {
+        offset: this.offset,
+      });
+    },
+    offset() {
+      return window.innerWidth > 768 ? -100 : -50;
     },
   },
 };
