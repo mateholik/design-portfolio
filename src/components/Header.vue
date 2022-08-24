@@ -7,7 +7,7 @@
         </div>
         <ul class="menu-desktop">
           <li
-            @click="scroll(item)"
+            @click="desktopItemClick(item)"
             v-for="item in menuList"
             :key="item.title"
             class="item"
@@ -23,7 +23,7 @@
               <li
                 v-for="subItem in item.subMenu"
                 :key="subItem.title"
-                @click="scroll(subItem)"
+                @click="desktopItemClick(subItem)"
               >
                 {{ subItem.title }}
               </li>
@@ -44,11 +44,32 @@
       </nav>
       <ul class="menu-mob">
         <li
-          @click="scroll(item.link)"
+          class="item"
+          @click="mobileItemClick(item)"
           v-for="item in menuList"
           :key="item.title"
+          :class="{ 'has-submenu': item.subMenu }"
         >
-          {{ item.title }}
+          <span>
+            {{ item.title }}
+            <img
+              v-if="item.subMenu"
+              :src="require('@/assets/img/menu-arrow.svg')"
+              :class="{ rotate: subMenuOpen }"
+              alt="arrow"
+            />
+          </span>
+          <transition name="slide">
+            <ul v-if="item.subMenu && subMenuOpen" class="sub-menu">
+              <li
+                v-for="subItem in item.subMenu"
+                :key="subItem.title"
+                @click.stop="mobileSubItemClick(subItem)"
+              >
+                {{ subItem.title }}
+              </li>
+            </ul>
+          </transition>
         </li>
       </ul>
     </div>
@@ -60,6 +81,7 @@ export default {
   data() {
     return {
       open: false,
+      subMenuOpen: false,
       menuList: [
         {
           title: "Skills",
@@ -93,13 +115,34 @@ export default {
       ],
     };
   },
+  watch: {
+    open(newVal) {
+      if (!newVal) this.subMenuOpen = false;
+    },
+  },
   methods: {
-    scroll(item) {
+    desktopItemClick(item) {
       if (item.subMenu) return;
-      if (this.open) this.open = false;
+      this.scroll(item);
+    },
+    scroll(item) {
       this.$scrollTo(document.getElementById(item.link), 400, {
         offset: this.offset,
       });
+    },
+    mobileItemClick(item) {
+      console.log(0);
+      if (item.subMenu) {
+        this.subMenuOpen = !this.subMenuOpen;
+      } else {
+        this.scroll(item);
+        this.open = false;
+      }
+    },
+    mobileSubItemClick(item) {
+      console.log(1);
+      this.scroll(item);
+      this.open = false;
     },
     offset() {
       return window.innerWidth > 768 ? -100 : -50;
