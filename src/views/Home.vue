@@ -264,7 +264,6 @@
             :key="`banner-${i}`"
           >
             <img
-              loading="lazy"
               class="cool-border"
               :src="require('@/assets/img/' + img)"
               alt=""
@@ -481,7 +480,7 @@
           </div>
           <div class="right">
             <div class="price">PRICE</div>
-            <div class="rate">10 €/h</div>
+            <div class="rate">12 €/h</div>
           </div>
         </div>
       </div>

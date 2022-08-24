@@ -26,6 +26,7 @@ header {
     }
     .logo {
       width: 14rem;
+      cursor: pointer;
       @include phone {
         width: 10.4rem;
       }
@@ -172,7 +173,7 @@ header {
   .planets {
     .green {
       position: absolute;
-      top: 63%;
+      top: 60%;
       left: 10%;
       width: 25%;
       max-width: 54rem;
@@ -185,7 +186,7 @@ header {
     .blue {
       position: absolute;
       position: absolute;
-      bottom: 31%;
+      bottom: 34%;
       right: 10%;
       width: 25%;
       max-width: 54rem;

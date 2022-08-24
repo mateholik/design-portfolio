@@ -1,8 +1,8 @@
 <template>
-  <header :class="{ active: open }">
+  <header :class="{ active: open }" ref="top">
     <div class="container">
       <nav>
-        <div class="logo">
+        <div class="logo" @click="scrollToTop">
           <img src="~@/assets/img/logo.svg" alt="logo" />
         </div>
         <ul class="menu-desktop">
@@ -121,6 +121,9 @@ export default {
     },
   },
   methods: {
+    scrollToTop() {
+      this.$scrollTo(this.$refs.top, 400);
+    },
     desktopItemClick(item) {
       if (item.subMenu) return;
       this.scroll(item);
@@ -131,7 +134,6 @@ export default {
       });
     },
     mobileItemClick(item) {
-      console.log(0);
       if (item.subMenu) {
         this.subMenuOpen = !this.subMenuOpen;
       } else {
@@ -140,7 +142,6 @@ export default {
       }
     },
     mobileSubItemClick(item) {
-      console.log(1);
       this.scroll(item);
       this.open = false;
     },
