@@ -95,105 +95,91 @@
       </div>
       <div class="blue">
         <svg
-          width="555"
-          height="480"
-          viewBox="0 0 555 480"
+          width="493"
+          height="412"
+          viewBox="0 0 493 412"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g id="planets">
-            <g id="planet-4">
-              <circle
-                id="Ellipse 6"
-                cx="548"
-                cy="7"
-                r="7"
-                transform="rotate(-90 548 7)"
-                fill="url(#paint0_linear_309_973)"
-              />
-            </g>
-            <g id="planet-3">
-              <circle
-                id="Ellipse 7"
-                cx="398"
-                cy="155"
-                r="10"
-                transform="rotate(-90 398 155)"
-                fill="url(#paint1_linear_309_973)"
-              />
-            </g>
-            <g id="planet-2">
-              <circle
-                id="Ellipse 7_2"
-                cx="222.5"
-                cy="308.5"
-                r="17.5"
-                transform="rotate(-90 222.5 308.5)"
-                fill="url(#paint2_linear_309_973)"
-              />
-            </g>
-            <g id="planet-1">
-              <circle
-                id="Ellipse 15"
-                cx="25"
-                cy="455"
-                r="25"
-                transform="rotate(-90 25 455)"
-                fill="url(#paint3_linear_309_973)"
-              />
-            </g>
-          </g>
+          <circle
+            cx="487"
+            cy="6"
+            r="6"
+            transform="rotate(-90 487 6)"
+            fill="url(#paint0_linear_418_1318)"
+          />
+          <circle
+            cx="360"
+            cy="137"
+            r="12"
+            transform="rotate(-90 360 137)"
+            fill="url(#paint1_linear_418_1318)"
+          />
+          <circle
+            cx="20"
+            cy="392"
+            r="20"
+            transform="rotate(-90 20 392)"
+            fill="url(#paint2_linear_418_1318)"
+          />
+          <circle
+            cx="203"
+            cy="269"
+            r="16"
+            transform="rotate(-90 203 269)"
+            fill="url(#paint3_linear_418_1318)"
+          />
           <defs>
             <linearGradient
-              id="paint0_linear_309_973"
-              x1="543.384"
-              y1="1.575"
-              x2="550.494"
-              y2="13.1906"
+              id="paint0_linear_418_1318"
+              x1="483.044"
+              y1="1.35"
+              x2="489.137"
+              y2="11.3063"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#9C38FF" />
-              <stop offset="0.31105" stop-color="#4F108E" />
-              <stop offset="0.593894" stop-color="#1F003E" />
+              <stop stop-color="#D738FF" />
+              <stop offset="0.31105" stop-color="#73128B" />
+              <stop offset="0.593894" stop-color="#2D0038" />
               <stop offset="0.951901" />
             </linearGradient>
             <linearGradient
-              id="paint1_linear_309_973"
-              x1="391.406"
-              y1="147.25"
-              x2="401.562"
-              y2="163.844"
+              id="paint1_linear_418_1318"
+              x1="352.088"
+              y1="127.7"
+              x2="364.275"
+              y2="147.613"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#9C38FF" />
-              <stop offset="0.31105" stop-color="#4F108E" />
-              <stop offset="0.593894" stop-color="#1F003E" />
+              <stop stop-color="#D738FF" />
+              <stop offset="0.31105" stop-color="#73128B" />
+              <stop offset="0.593894" stop-color="#2D0038" />
               <stop offset="0.951901" />
             </linearGradient>
             <linearGradient
-              id="paint2_linear_309_973"
-              x1="210.961"
-              y1="294.938"
-              x2="228.734"
-              y2="323.977"
+              id="paint2_linear_418_1318"
+              x1="6.8125"
+              y1="376.5"
+              x2="27.125"
+              y2="409.688"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#9C38FF" />
-              <stop offset="0.31105" stop-color="#4F108E" />
-              <stop offset="0.593894" stop-color="#1F003E" />
+              <stop stop-color="#D738FF" />
+              <stop offset="0.31105" stop-color="#73128B" />
+              <stop offset="0.593894" stop-color="#2D0038" />
               <stop offset="0.951901" />
             </linearGradient>
             <linearGradient
-              id="paint3_linear_309_973"
-              x1="8.51563"
-              y1="435.625"
-              x2="33.9062"
-              y2="477.109"
+              id="paint3_linear_418_1318"
+              x1="192.45"
+              y1="256.6"
+              x2="208.7"
+              y2="283.15"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#9C38FF" />
-              <stop offset="0.31105" stop-color="#4F108E" />
-              <stop offset="0.593894" stop-color="#1F003E" />
+              <stop stop-color="#D738FF" />
+              <stop offset="0.31105" stop-color="#73128B" />
+              <stop offset="0.593894" stop-color="#2D0038" />
               <stop offset="0.951901" />
             </linearGradient>
           </defs>

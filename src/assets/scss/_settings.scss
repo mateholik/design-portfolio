@@ -182,6 +182,18 @@ section {
 
 .cool-border {
   border: 0.5px solid #5e5e5e;
+  // position: relative;
+  // &:before {
+  //   position: absolute;
+  //   content: "";
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-image: url("~@/assets/img/border.svg");
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  // }
 }
 
 // @keyframes pulse {
