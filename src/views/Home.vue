@@ -469,7 +469,7 @@
           </div>
         </div>
         <div class="wrapper cool-border">
-          <di class="left">
+          <div class="left">
             <div class="title">ABOUT ME</div>
             <p>
               I am a meticulous and ambitious UX/UI designer, who is looking for
@@ -478,7 +478,7 @@
               beautiful for yourself or your company, please get in touch with
               me.
             </p>
-          </di>
+          </div>
           <div class="right">
             <div class="price">PRICE</div>
             <div class="rate">10 €/h</div>
