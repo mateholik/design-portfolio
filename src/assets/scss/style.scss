@@ -394,7 +394,6 @@ header {
           max-width: 40rem;
           margin: auto;
           margin-bottom: 6rem;
-          text-align: center;
         }
       }
       &:hover {
@@ -451,9 +450,6 @@ header {
       .buttons {
         @include center;
         justify-content: flex-start;
-        @include phone {
-          justify-content: center;
-        }
         .button {
           min-width: 12rem;
           @include phone {
@@ -546,6 +542,7 @@ header {
       border-radius: 2rem;
       z-index: 2;
       @include phone {
+        height: 13rem;
         // margin-bottom: 8rem;
         // border-bottom-left-radius: 0;
         // border-bottom-right-radius: 0;
@@ -557,7 +554,7 @@ header {
 
         @include phone {
           width: 100%;
-          max-width: 40rem;
+          max-width: 30rem;
           margin: auto;
           margin-bottom: 4rem;
           text-align: center;
@@ -621,7 +618,7 @@ header {
       z-index: -1;
       transform: rotate(320deg);
       @include phone {
-        bottom: -48%;
+        bottom: -9%;
         right: 1%;
         transform: rotate(333deg);
         max-width: 19rem;
@@ -692,10 +689,16 @@ header {
         font-weight: 600;
         font-size: 2.4rem;
         margin-bottom: 1.6rem;
+        @include phone {
+          font-size: 2rem;
+        }
       }
       .rate {
         font-size: 3.2rem;
         font-weight: 600;
+        @include phone {
+          font-size: 2.4rem;
+        }
       }
     }
     .title {
@@ -767,13 +770,15 @@ header {
 .contact {
   background-image: url("~@/assets/img/contact-bg2.jpeg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   margin-bottom: 0;
   padding-bottom: 9.6rem;
   padding-top: 9.6rem;
   .wrapper {
-    @include center;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
     align-items: end;
     @include phone {
       display: block;
@@ -823,8 +828,12 @@ header {
     }
   }
   .right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 50%;
     @include phone {
+      position: static;
       width: 100%;
     }
     img {

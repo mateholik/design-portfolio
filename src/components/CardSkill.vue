@@ -3,6 +3,7 @@
     <div class="item cool-border">
       <div class="img-holder">
         <img
+          loading="lazy"
           :src="require('@/assets/img/' + skillData.logo + '.svg')"
           :alt="skillData.title"
         />

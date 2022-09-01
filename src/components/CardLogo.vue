@@ -2,6 +2,7 @@
   <div class="item-wrap">
     <div class="item cool-border">
       <img
+        loading="lazy"
         :src="require('@/assets/img/' + webData.image)"
         :alt="webData.title"
       />

@@ -264,6 +264,7 @@
             :key="`banner-${i}`"
           >
             <img
+              loading="lazy"
               class="cool-border"
               :src="require('@/assets/img/' + img)"
               alt=""
@@ -510,6 +511,7 @@
                 :key="item.title"
               >
                 <img
+                  loading="lazy"
                   :src="require('@/assets/img/' + item.icon)"
                   :alt="item.title"
                 />
@@ -612,6 +614,16 @@ export default {
         },
       ],
       websData: [
+        {
+          tag: "E-SHOP",
+          title: "matesklubas.lt",
+          description:
+            "Explore a unique flavour of yerba mate tea at mate club and join our friendly family",
+          image: "matesklubas.jpeg",
+          linkFigma:
+            "https://www.figma.com/file/VrcFnfBwXb2LoHZFcdhtei/Mate?node-id=0%3A1",
+          linkPdf: "./pdf/matesklubas.pdf",
+        },
         {
           tag: "E-SHOP",
           title: "Wood e-shop",

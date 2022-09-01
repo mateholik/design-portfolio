@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <!-- <footer>
     <div class="container">
       <div class="wrapper">
         <div class="logo">
@@ -16,7 +16,10 @@
         </ul>
       </div>
     </div>
-  </footer>
+  </footer> -->
+  <div>
+    <p style="text-align: center; padding: 6rem 0">maxdesign.online © 2022</p>
+  </div>
 </template>
 
 <script>
