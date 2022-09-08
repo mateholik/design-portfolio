@@ -109,7 +109,7 @@ export default {
           link: "about",
         },
         {
-          title: "Contact",
+          title: "Contacts",
           link: "contact",
         },
       ],

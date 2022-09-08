@@ -6,54 +6,54 @@
       <div class="container">
         <div class="planets rotate">
           <svg
-            width="316"
-            height="187"
-            viewBox="0 0 316 187"
+            width="309"
+            height="209"
+            viewBox="0 0 309 209"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <circle
-              cx="153.629"
-              cy="88.7538"
-              r="73.2297"
-              transform="rotate(-90 153.629 88.7538)"
-              fill="url(#paint0_linear_468_132)"
+              cx="157"
+              cy="104"
+              r="73"
+              transform="rotate(-90 157 104)"
+              fill="url(#paint0_linear_539_30)"
             />
             <circle
-              cx="52.2558"
-              cy="154.922"
-              r="10.5283"
-              transform="rotate(-90 52.2558 154.922)"
-              fill="url(#paint1_linear_468_132)"
+              cx="53.5"
+              cy="166.5"
+              r="10.5"
+              transform="rotate(-90 53.5 166.5)"
+              fill="url(#paint1_linear_539_30)"
             />
             <circle
-              cx="5.49057"
-              cy="181.219"
-              r="5.49057"
-              transform="rotate(-90 5.49057 181.219)"
-              fill="url(#paint2_linear_468_132)"
+              cx="5.5"
+              cy="203.5"
+              r="5.5"
+              transform="rotate(-90 5.5 203.5)"
+              fill="url(#paint2_linear_539_30)"
             />
             <circle
-              cx="262.922"
-              cy="38.1611"
-              r="10.5283"
-              transform="rotate(-90 262.922 38.1611)"
-              fill="url(#paint3_linear_468_132)"
+              cx="254.5"
+              cy="41.5"
+              r="10.5"
+              transform="rotate(-90 254.5 41.5)"
+              fill="url(#paint3_linear_539_30)"
             />
             <circle
-              cx="309.788"
-              cy="5.49057"
-              r="5.49057"
-              transform="rotate(-90 309.788 5.49057)"
-              fill="url(#paint4_linear_468_132)"
+              cx="303.5"
+              cy="5.5"
+              r="5.5"
+              transform="rotate(-90 303.5 5.5)"
+              fill="url(#paint4_linear_539_30)"
             />
             <defs>
               <linearGradient
-                id="paint0_linear_468_132"
-                x1="105.343"
-                y1="32.0008"
-                x2="179.717"
-                y2="153.516"
+                id="paint0_linear_539_30"
+                x1="108.866"
+                y1="47.425"
+                x2="183.006"
+                y2="168.559"
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stop-color="#CC34F2" />
@@ -62,11 +62,11 @@
                 <stop offset="1" />
               </linearGradient>
               <linearGradient
-                id="paint1_linear_468_132"
-                x1="45.3137"
-                y1="146.763"
-                x2="56.0065"
-                y2="164.233"
+                id="paint1_linear_539_30"
+                x1="46.5766"
+                y1="158.363"
+                x2="57.2406"
+                y2="175.786"
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stop-color="#CC34F2" />
@@ -75,11 +75,11 @@
                 <stop offset="1" />
               </linearGradient>
               <linearGradient
-                id="paint2_linear_468_132"
-                x1="1.87023"
-                y1="176.963"
-                x2="7.44659"
-                y2="186.074"
+                id="paint2_linear_539_30"
+                x1="1.87344"
+                y1="199.238"
+                x2="7.45937"
+                y2="208.364"
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stop-color="#CC34F2" />
@@ -88,11 +88,11 @@
                 <stop offset="1" />
               </linearGradient>
               <linearGradient
-                id="paint3_linear_468_132"
-                x1="255.98"
-                y1="30.0017"
-                x2="266.673"
-                y2="47.472"
+                id="paint3_linear_539_30"
+                x1="247.577"
+                y1="33.3625"
+                x2="258.241"
+                y2="50.7859"
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stop-color="#CC34F2" />
@@ -101,11 +101,11 @@
                 <stop offset="1" />
               </linearGradient>
               <linearGradient
-                id="paint4_linear_468_132"
-                x1="306.168"
-                y1="1.23537"
-                x2="311.744"
-                y2="10.3463"
+                id="paint4_linear_539_30"
+                x1="299.873"
+                y1="1.2375"
+                x2="305.459"
+                y2="10.3641"
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stop-color="#CC34F2" />
@@ -145,54 +145,54 @@
             Banners
             <div class="planets rotate">
               <svg
-                width="175"
-                height="120"
-                viewBox="0 0 175 120"
+                width="185"
+                height="117"
+                viewBox="0 0 185 117"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <circle
-                  cx="82.335"
-                  cy="57.3349"
-                  r="44.335"
-                  transform="rotate(-90 82.335 57.3349)"
-                  fill="url(#paint0_linear_468_178)"
+                  cx="93.8995"
+                  cy="58.201"
+                  r="43.6603"
+                  transform="rotate(-90 93.8995 58.201)"
+                  fill="url(#paint0_linear_539_75)"
                 />
                 <circle
-                  cx="29"
-                  cy="100"
-                  r="7"
-                  transform="rotate(-90 29 100)"
-                  fill="url(#paint1_linear_468_178)"
+                  cx="31.9977"
+                  cy="95.5814"
+                  r="6.2799"
+                  transform="rotate(-90 31.9977 95.5814)"
+                  fill="url(#paint1_linear_539_75)"
                 />
                 <circle
-                  cx="3.5"
-                  cy="116.5"
-                  r="3.5"
-                  transform="rotate(-90 3.5 116.5)"
-                  fill="url(#paint2_linear_468_178)"
+                  cx="3.28947"
+                  cy="113.711"
+                  r="3.28947"
+                  transform="rotate(-90 3.28947 113.711)"
+                  fill="url(#paint2_linear_539_75)"
                 />
                 <circle
-                  cx="145"
-                  cy="21"
-                  r="7"
-                  transform="rotate(-90 145 21)"
-                  fill="url(#paint3_linear_468_178)"
+                  cx="152.214"
+                  cy="20.8206"
+                  r="6.2799"
+                  transform="rotate(-90 152.214 20.8206)"
+                  fill="url(#paint3_linear_539_75)"
                 />
                 <circle
-                  cx="171.5"
-                  cy="3.5"
-                  r="3.5"
-                  transform="rotate(-90 171.5 3.5)"
-                  fill="url(#paint4_linear_468_178)"
+                  cx="181.519"
+                  cy="3.28945"
+                  r="3.28947"
+                  transform="rotate(-90 181.519 3.28945)"
+                  fill="url(#paint4_linear_539_75)"
                 />
                 <defs>
                   <linearGradient
-                    id="paint0_linear_468_178"
-                    x1="53.1016"
-                    y1="22.9753"
-                    x2="98.1293"
-                    y2="96.5437"
+                    id="paint0_linear_539_75"
+                    x1="65.111"
+                    y1="24.3643"
+                    x2="109.453"
+                    y2="96.813"
                     gradientUnits="userSpaceOnUse"
                   >
                     <stop stop-color="#0038FF" />
@@ -201,11 +201,11 @@
                     <stop offset="1" />
                   </linearGradient>
                   <linearGradient
-                    id="paint1_linear_468_178"
-                    x1="24.3844"
-                    y1="94.575"
-                    x2="31.4937"
-                    y2="106.191"
+                    id="paint1_linear_539_75"
+                    x1="27.8569"
+                    y1="90.7144"
+                    x2="34.2349"
+                    y2="101.135"
                     gradientUnits="userSpaceOnUse"
                   >
                     <stop stop-color="#0038FF" />
@@ -214,11 +214,11 @@
                     <stop offset="1" />
                   </linearGradient>
                   <linearGradient
-                    id="paint2_linear_468_178"
-                    x1="1.19219"
-                    y1="113.788"
-                    x2="4.74687"
-                    y2="119.595"
+                    id="paint2_linear_539_75"
+                    x1="1.12048"
+                    y1="111.161"
+                    x2="4.46135"
+                    y2="116.62"
                     gradientUnits="userSpaceOnUse"
                   >
                     <stop stop-color="#0038FF" />
@@ -227,11 +227,11 @@
                     <stop offset="1" />
                   </linearGradient>
                   <linearGradient
-                    id="paint3_linear_468_178"
-                    x1="140.384"
-                    y1="15.575"
-                    x2="147.494"
-                    y2="27.1906"
+                    id="paint3_linear_539_75"
+                    x1="148.073"
+                    y1="15.9537"
+                    x2="154.451"
+                    y2="26.3744"
                     gradientUnits="userSpaceOnUse"
                   >
                     <stop stop-color="#0038FF" />
@@ -240,11 +240,11 @@
                     <stop offset="1" />
                   </linearGradient>
                   <linearGradient
-                    id="paint4_linear_468_178"
-                    x1="169.192"
-                    y1="0.7875"
-                    x2="172.747"
-                    y2="6.59531"
+                    id="paint4_linear_539_75"
+                    x1="179.35"
+                    y1="0.740105"
+                    x2="182.691"
+                    y2="6.19857"
                     gradientUnits="userSpaceOnUse"
                   >
                     <stop stop-color="#0038FF" />
@@ -275,9 +275,7 @@
     </section>
     <section id="logos" class="logos">
       <div class="container">
-        <div class="title">
-          <h2>Logos</h2>
-        </div>
+        <h2>Logos</h2>
         <div class="wrapper">
           <CardLogo
             :webData="item"
@@ -289,57 +287,58 @@
     </section>
     <section id="about" class="about">
       <div class="container">
+        <h2>About me</h2>
         <div class="planets">
           <div class="blue rotate">
             <svg
-              width="316"
-              height="187"
-              viewBox="0 0 316 187"
+              width="309"
+              height="209"
+              viewBox="0 0 309 209"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
-                cx="153.629"
-                cy="88.7538"
-                r="73.2297"
-                transform="rotate(-90 153.629 88.7538)"
-                fill="url(#paint0_linear_468_132)"
+                cx="157"
+                cy="104"
+                r="73"
+                transform="rotate(-90 157 104)"
+                fill="url(#paint0_linear_539_30)"
               />
               <circle
-                cx="52.2558"
-                cy="154.922"
-                r="10.5283"
-                transform="rotate(-90 52.2558 154.922)"
-                fill="url(#paint1_linear_468_132)"
+                cx="53.5"
+                cy="166.5"
+                r="10.5"
+                transform="rotate(-90 53.5 166.5)"
+                fill="url(#paint1_linear_539_30)"
               />
               <circle
-                cx="5.49057"
-                cy="181.219"
-                r="5.49057"
-                transform="rotate(-90 5.49057 181.219)"
-                fill="url(#paint2_linear_468_132)"
+                cx="5.5"
+                cy="203.5"
+                r="5.5"
+                transform="rotate(-90 5.5 203.5)"
+                fill="url(#paint2_linear_539_30)"
               />
               <circle
-                cx="262.922"
-                cy="38.1611"
-                r="10.5283"
-                transform="rotate(-90 262.922 38.1611)"
-                fill="url(#paint3_linear_468_132)"
+                cx="254.5"
+                cy="41.5"
+                r="10.5"
+                transform="rotate(-90 254.5 41.5)"
+                fill="url(#paint3_linear_539_30)"
               />
               <circle
-                cx="309.788"
-                cy="5.49057"
-                r="5.49057"
-                transform="rotate(-90 309.788 5.49057)"
-                fill="url(#paint4_linear_468_132)"
+                cx="303.5"
+                cy="5.5"
+                r="5.5"
+                transform="rotate(-90 303.5 5.5)"
+                fill="url(#paint4_linear_539_30)"
               />
               <defs>
                 <linearGradient
-                  id="paint0_linear_468_132"
-                  x1="105.343"
-                  y1="32.0008"
-                  x2="179.717"
-                  y2="153.516"
+                  id="paint0_linear_539_30"
+                  x1="108.866"
+                  y1="47.425"
+                  x2="183.006"
+                  y2="168.559"
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stop-color="#CC34F2" />
@@ -348,11 +347,11 @@
                   <stop offset="1" />
                 </linearGradient>
                 <linearGradient
-                  id="paint1_linear_468_132"
-                  x1="45.3137"
-                  y1="146.763"
-                  x2="56.0065"
-                  y2="164.233"
+                  id="paint1_linear_539_30"
+                  x1="46.5766"
+                  y1="158.363"
+                  x2="57.2406"
+                  y2="175.786"
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stop-color="#CC34F2" />
@@ -361,11 +360,11 @@
                   <stop offset="1" />
                 </linearGradient>
                 <linearGradient
-                  id="paint2_linear_468_132"
-                  x1="1.87023"
-                  y1="176.963"
-                  x2="7.44659"
-                  y2="186.074"
+                  id="paint2_linear_539_30"
+                  x1="1.87344"
+                  y1="199.238"
+                  x2="7.45937"
+                  y2="208.364"
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stop-color="#CC34F2" />
@@ -374,11 +373,11 @@
                   <stop offset="1" />
                 </linearGradient>
                 <linearGradient
-                  id="paint3_linear_468_132"
-                  x1="255.98"
-                  y1="30.0017"
-                  x2="266.673"
-                  y2="47.472"
+                  id="paint3_linear_539_30"
+                  x1="247.577"
+                  y1="33.3625"
+                  x2="258.241"
+                  y2="50.7859"
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stop-color="#CC34F2" />
@@ -387,11 +386,11 @@
                   <stop offset="1" />
                 </linearGradient>
                 <linearGradient
-                  id="paint4_linear_468_132"
-                  x1="306.168"
-                  y1="1.23537"
-                  x2="311.744"
-                  y2="10.3463"
+                  id="paint4_linear_539_30"
+                  x1="299.873"
+                  y1="1.2375"
+                  x2="305.459"
+                  y2="10.3641"
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stop-color="#CC34F2" />
@@ -434,75 +433,85 @@
               </defs>
             </svg>
           </div>
-          <div class="multiple pulse">
-            <svg
-              width="81"
-              height="79"
-              viewBox="0 0 81 79"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <ellipse
-                cx="40.5"
-                cy="39.5"
-                rx="39.5"
-                ry="40.5"
-                transform="rotate(-90 40.5 39.5)"
-                fill="url(#paint0_linear_418_1465)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_418_1465"
-                  x1="14.4547"
-                  y1="8.1125"
-                  x2="56.0477"
-                  y2="74.3911"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#D738FF" />
-                  <stop offset="0.31105" stop-color="#73128B" />
-                  <stop offset="0.593894" stop-color="#2D0038" />
-                  <stop offset="0.951901" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </div>
         </div>
         <div class="wrapper cool-border">
           <div class="left">
-            <div class="title">ABOUT ME</div>
             <p>
-              I am a meticulous and ambitious UX/UI designer, who is looking for
-              customers collaboration. I feel a passion for creating responsive,
-              modern and code ready designs. If you are looking for something
-              beautiful for yourself or your company, please get in touch with
-              me.
+              After spending some time in Udemy and countless hours in youtube,
+              watching UX/UI tutorials, I managed to find some clients and
+              started freelancing. Side by side, freelancing and studying on my
+              own, I made this portfolio where you can find my projects, placed
+              chronologically from bottom to top, and see how I am improving. I
+              consider myself as a strong junior UX/UI designer, because:
             </p>
+            <ul>
+              <li>
+                I can <span>professionally</span> use Figma platform for every
+                day UX/UI design tasks
+              </li>
+              <li>
+                I am using <span>components</span>, <span>variants</span> and
+                <span>auto layouts</span> in my projects
+              </li>
+              <li>I am making designs using <span>8px grid</span> system</li>
+              <li>
+                I have experience communicating with front end developers. I
+                have understanding what <span>‘code-ready’</span> design is and
+                how design should be prepared for efficient coding
+              </li>
+              <li>
+                I provide <span>design system</span> with all interactive
+                elements (buttons, inputs, links, etc.) and their states (hover,
+                active, error, etc.)
+              </li>
+            </ul>
+            <p>
+              I am looking for new projects or office job, preferably where I
+              can communicate with experienced designers. I want to improve my
+              skills and become great UX/UI designer.
+            </p>
+            <div class="subtitle">
+              <img src="@/assets/img/process.svg" alt="icon" />
+              My work process:
+            </div>
+            <ul class="process">
+              <li>
+                1.&nbsp;&nbsp;<span>Collect information</span> about project
+                (what is the main goal; what website client needs; what pages
+                and sections are; who is target audience, etc.)
+              </li>
+              <li>
+                2.&nbsp;&nbsp;Create design structure with
+                <span>wireframes</span>. Discuss with client, update until
+                structure is approved
+              </li>
+              <li>
+                3.&nbsp;&nbsp;<span>Research</span> on competitors or similar
+                websites
+              </li>
+              <li>4.&nbsp;&nbsp;Create <span>design system</span></li>
+              <li>5.&nbsp;&nbsp;Start <span>designing</span> the wireframes</li>
+              <li>
+                6.&nbsp;&nbsp;<span>Review</span> with client. Update till
+                desktop version is approved
+              </li>
+              <li>7.&nbsp;&nbsp;Create <span>mobile</span> version</li>
+            </ul>
           </div>
           <div class="right">
-            <div class="price">PRICE</div>
+            <div class="price">
+              <img src="@/assets/img/label.svg" alt="icon" />PRICE
+            </div>
             <div class="rate">12 €/h</div>
           </div>
         </div>
       </div>
     </section>
-    <!-- <section id="prices" class="prices">
-      <div class="container">
-        <h2>Prices</h2>
-        <div class="wrapper">
-          <CardPrice
-            :priceData="item"
-            v-for="(item, i) in pricesData"
-            :key="`price-${i}`"
-          />
-        </div>
-      </div>
-    </section> -->
     <section id="contact" class="contact">
       <div class="container">
+        <h2>Contacts</h2>
         <div class="wrapper">
           <div class="left">
-            <h3>Contact me</h3>
             <div class="socials">
               <a
                 v-for="item in contacts.socials"
@@ -537,7 +546,7 @@
                   type="submit"
                   :disabled="submitStatus === 'PENDING'"
                 >
-                  Send!
+                  Send
                 </button>
               </div>
 
@@ -553,11 +562,7 @@
             </form>
           </div>
           <div class="right">
-            <img
-              loading="lazy"
-              :src="require('@/assets/img/contact.svg')"
-              alt=""
-            />
+            <Sun />
           </div>
         </div>
       </div>
@@ -586,6 +591,7 @@ export default {
     CardLogo,
     Input,
     Footer,
+    Sun: () => import(/* webpackPrefetch: true */ "@/components/Sun.vue"),
   },
   data() {
     return {

@@ -188,13 +188,10 @@
     </div>
     <div class="container">
       <h1>
-        WEB DESIGN EXPERIENCE YOU <br />
+        WEB DESIGN EXPERIENCE YOU<br />
         ARE LOOKING FOR
       </h1>
-      <p>
-        Performing UI / UX design <br />
-        Logo design
-      </p>
+      <p>Performing UX/UI designs</p>
       <div class="buttons">
         <div @click="scroll('websites')" class="button">Portfolio</div>
         <div @click="scroll('contact')" class="button button--secondary">

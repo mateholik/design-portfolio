@@ -41,7 +41,7 @@ header {
         cursor: pointer;
         font-weight: 600;
         transition: 200ms;
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: $textColor;
         position: relative;
         padding: 2.4rem 0;
@@ -211,7 +211,6 @@ header {
     }
   }
   p {
-    max-width: 38rem;
     margin: 0 auto;
     font-weight: 600;
     font-size: 2.6rem;
@@ -269,8 +268,8 @@ header {
 .skills {
   .planets {
     position: absolute;
-    top: 77.5%;
-    right: -8%;
+    top: 72.5%;
+    right: -10%;
     width: 100%;
     max-width: 30rem;
     @include phone {
@@ -367,7 +366,6 @@ header {
   }
 }
 .websites {
-  padding-bottom: 0;
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -382,11 +380,13 @@ header {
         width: calc(min(50%, 61rem));
         padding: 0 2rem;
         margin-bottom: 6.4rem;
-        height: 100%;
         &:nth-last-child(-n + 2) {
           margin-bottom: 0;
           @include phone {
             margin-bottom: 5rem;
+            &:last-child {
+              margin-bottom: 0;
+            }
           }
         }
         @include phone {
@@ -464,7 +464,6 @@ header {
   }
 }
 .banners {
-  padding-bottom: 0;
   .title {
     display: flex;
     justify-content: center;
@@ -473,14 +472,14 @@ header {
       position: relative;
       .planets {
         position: absolute;
-        top: -36px;
-        left: -49px;
+        top: -38px;
+        left: -72px;
         min-width: 15rem;
         width: 100%;
         z-index: -1;
         @include phone {
-          top: -25px;
-          left: -36px;
+          top: -30px;
+          left: -44px;
           min-width: 11rem;
           width: 100%;
           z-index: -1;
@@ -501,6 +500,9 @@ header {
         margin-bottom: 0;
         @include phone {
           margin-bottom: 5rem;
+          &:last-child {
+            margin-bottom: 0;
+          }
         }
       }
       @include phone {
@@ -517,32 +519,30 @@ header {
   }
 }
 .logos {
-  .title {
-    display: flex;
-    justify-content: center;
-    h2 {
-      display: inline-block;
-      position: relative;
-      @include phone {
-        margin-bottom: 4rem;
-      }
-    }
-  }
   .wrapper {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 -2rem;
+    @include phone {
+      display: block;
+    }
     .item {
       position: relative;
-      background: black;
-      height: 21rem;
-      display: flex;
-      padding: 0 4rem;
+      height: 21.6rem;
       border-radius: 2rem;
-      z-index: 2;
+      background: linear-gradient(
+        287.66deg,
+        rgba(78, 78, 78, 0.1) 0%,
+        rgba(78, 78, 78, 0.4) 100%
+      );
+      backdrop-filter: blur(1rem);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
       @include phone {
-        height: 13rem;
+        height: 10rem;
         // margin-bottom: 8rem;
         // border-bottom-left-radius: 0;
         // border-bottom-right-radius: 0;
@@ -558,41 +558,53 @@ header {
           margin: auto;
           margin-bottom: 4rem;
           text-align: center;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+      img {
+        height: 10rem;
+        width: auto;
+        margin: 0 auto;
+        max-width: 100%;
+        @include phone {
+          height: 6rem;
         }
       }
 
-      .holder {
-        position: absolute;
-        opacity: 0;
-        pointer-events: none;
-        background: #212121;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: auto;
-        transform: translateY(0);
-        transition: 0.2s;
-        padding: 2rem;
-        border-bottom-left-radius: 2rem;
-        border-bottom-right-radius: 2rem;
-        @include phone {
-          transform: translateY(100%);
-          opacity: 1;
-        }
-        .buttons {
-          @include center;
-          justify-content: flex-start;
-          @include phone {
-            justify-content: center;
-          }
-          .button {
-            min-width: 10rem;
-          }
-          .button--secondary {
-            margin-left: 2.6rem;
-          }
-        }
-      }
+      // .holder {
+      //   position: absolute;
+      //   opacity: 0;
+      //   pointer-events: none;
+      //   background: #212121;
+      //   bottom: 0;
+      //   left: 0;
+      //   width: 100%;
+      //   height: auto;
+      //   transform: translateY(0);
+      //   transition: 0.2s;
+      //   padding: 2rem;
+      //   border-bottom-left-radius: 2rem;
+      //   border-bottom-right-radius: 2rem;
+      //   @include phone {
+      //     transform: translateY(100%);
+      //     opacity: 1;
+      //   }
+      //   .buttons {
+      //     @include center;
+      //     justify-content: flex-start;
+      //     @include phone {
+      //       justify-content: center;
+      //     }
+      //     .button {
+      //       min-width: 10rem;
+      //     }
+      //     .button--secondary {
+      //       margin-left: 2.6rem;
+      //     }
+      //   }
+      // }
     }
     .active {
       .holder {
@@ -604,54 +616,35 @@ header {
   }
 }
 .about {
-  margin-top: 15rem;
-  @include phone {
-    margin-top: 0;
-    padding-bottom: 5rem;
-  }
   .planets {
-    .multiple {
-      position: absolute;
-      bottom: 33%;
-      right: -2%;
-      max-width: 8rem;
-      width: 100%;
-      z-index: -1;
-      transform: rotate(320deg);
-      @include phone {
-        bottom: -9%;
-        right: 1%;
-        transform: rotate(333deg);
-        max-width: 19rem;
-      }
-    }
     .green {
       position: absolute;
-      top: -7%;
-      left: 46%;
+      top: 38%;
+      right: -3%;
       max-width: 31rem;
       width: 100%;
       z-index: -1;
       @include phone {
-        top: -11%;
-        right: 0;
-        max-width: 6rem;
-        left: unset;
+        top: unset;
+        right: unset;
+        max-width: 10rem;
+        bottom: -2%;
+        left: 2%;
       }
     }
     .blue {
       position: absolute;
-      top: -30%;
-      left: -6.6%;
+      top: 3%;
+      left: -8.6%;
       max-width: 24rem;
       width: 100%;
       z-index: 1;
       transform: rotate(375deg);
       @include phone {
-        bottom: 19%;
-        left: -1%;
-        max-width: 6rem;
-        top: unset;
+        top: -1.5%;
+        left: 23%;
+        max-width: 12rem;
+        z-index: -1;
       }
     }
   }
@@ -669,6 +662,65 @@ header {
     @include phone {
       padding: 2rem;
       display: block;
+    }
+    .left {
+      font-size: 1.8rem;
+      line-height: 2.6rem;
+
+      @include phone {
+        font-size: 1.6rem;
+      }
+      p {
+        margin-bottom: 2.4rem;
+        @include phone {
+        }
+      }
+      ul {
+        margin-left: 4rem;
+        margin-bottom: 2.4rem;
+        li {
+          position: relative;
+          margin-bottom: 0.8rem;
+          &:before {
+            position: absolute;
+            top: 2px;
+            left: -24px;
+            content: "";
+            background-image: url("~@/assets/img/check-2.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            width: 1.6rem;
+            height: 1.6rem;
+          }
+        }
+        span {
+          color: #e682ff;
+        }
+      }
+      .subtitle {
+        display: flex;
+        align-items: center;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 2.4rem;
+        img {
+          width: 2.4rem;
+          margin-right: 1.4rem;
+        }
+      }
+      ul.process {
+        margin-left: 2rem;
+        margin-bottom: 0;
+        li {
+          &::before {
+            display: none;
+          }
+        }
+        span {
+          color: #6e87df;
+        }
+      }
     }
     .right {
       flex-shrink: 0;
@@ -688,10 +740,17 @@ header {
       }
       .price {
         font-weight: 600;
-        font-size: 2.4rem;
+        font-size: 2.8rem;
         margin-bottom: 1.6rem;
+        display: flex;
+        align-items: center;
         @include phone {
           font-size: 2rem;
+        }
+        img {
+          width: 3.2rem;
+          height: 3.2rem;
+          margin-right: 0.8rem;
         }
       }
       .rate {
@@ -702,89 +761,14 @@ header {
         }
       }
     }
-    .title {
-      font-weight: 600;
-      font-size: 3.2rem;
-      margin-bottom: 3.2rem;
-      @include phone {
-        font-size: 2.2rem;
-        margin-bottom: 1rem;
-      }
-    }
-    p {
-      font-size: 1.8rem;
-      @include phone {
-        font-size: 1.6rem;
-      }
-    }
-  }
-}
-.prices {
-  .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    @include phone {
-      display: block;
-    }
-    .item {
-      color: $textColor;
-      &-wrap {
-        margin-right: 3.2rem;
-        margin-bottom: 4rem;
-        max-width: 30rem;
-        @include phone {
-          width: 100%;
-          max-width: 40rem;
-          margin: auto;
-          margin-bottom: 2rem;
-        }
-      }
-      position: relative;
-      height: 100%;
-      border-radius: 2rem;
-      padding: 1.6rem 3.2rem;
-      background: linear-gradient(
-        287.66deg,
-        rgba(78, 78, 78, 0.1) 0%,
-        rgba(78, 78, 78, 0.4) 100%
-      );
-      backdrop-filter: blur(1rem);
-      position: relative;
-      overflow: hidden;
-      @include phone {
-        padding: 1.5rem;
-      }
-      p {
-        font-size: 1.8rem;
-        font-weight: 500;
-        margin-bottom: 1rem;
-        @include phone {
-          font-size: 1.6rem;
-        }
-      }
-      .number {
-      }
-    }
   }
 }
 .contact {
-  background-image: url("~@/assets/img/contact-bg2.jpeg");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  margin-bottom: 0;
-  padding-bottom: 9.6rem;
-  padding-top: 9.6rem;
-  @include phone {
-    padding-top: 4rem;
-    padding-bottom: 6rem;
-  }
   .wrapper {
     position: relative;
     display: flex;
     justify-content: flex-start;
-    align-items: end;
+    align-items: center;
     @include phone {
       display: block;
       max-width: 36rem;
@@ -818,12 +802,7 @@ header {
       }
     }
     .btn-holder {
-      display: flex;
-      justify-content: flex-end;
       margin-top: 4rem;
-      @include phone {
-        justify-content: center;
-      }
       .button {
         min-width: 12rem;
         @include phone {
@@ -831,11 +810,11 @@ header {
         }
       }
     }
+    .typo__p {
+      margin-top: 1.6rem;
+    }
   }
   .right {
-    position: absolute;
-    bottom: 0;
-    right: 0;
     width: 50%;
     @include phone {
       position: static;
@@ -855,43 +834,27 @@ header {
 }
 
 footer {
-  padding: 14rem 0;
-  background: #000;
+  padding: 6rem 0;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.3;
+  }
   @include phone {
-    padding: 7rem 0;
+    padding: 4rem 0;
   }
-  .logo {
-    max-width: 13rem;
-    @include phone {
-      max-width: 10rem;
-      margin-bottom: 3.5rem;
-    }
-  }
-  .wrapper {
-    display: flex;
-    justify-content: space-between;
-    @include phone {
-      display: block;
-    }
-  }
-  ul {
-    display: flex;
-    @include phone {
-      display: block;
-    }
-  }
-  li {
-    margin-left: 6rem;
-    cursor: pointer;
+  p {
+    text-align: center;
+    font-size: 1.8rem;
     font-weight: 600;
-    transition: 200ms;
-    font-size: 2rem;
-    &:hover {
-      color: $primaryColor;
-    }
     @include phone {
-      margin-left: 0;
-      margin-bottom: 2rem;
+      font-size: 1.6rem;
     }
   }
 }

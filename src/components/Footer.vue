@@ -1,62 +1,14 @@
 <template>
-  <!-- <footer>
+  <footer>
     <div class="container">
-      <div class="wrapper">
-        <div class="logo">
-          <img src="~@/assets/img/logo.svg" alt="logo" />
-        </div>
-        <ul class="menu-mob">
-          <li
-            @click="scroll(item.link)"
-            v-for="item in menuList"
-            :key="item.title"
-          >
-            {{ item.title }}
-          </li>
-        </ul>
-      </div>
+      <p>maxdesign.online © 2022</p>
     </div>
-  </footer> -->
-  <div>
-    <p style="text-align: center; padding: 6rem 0">maxdesign.online © 2022</p>
-  </div>
+  </footer>
 </template>
 
 <script>
 export default {
   name: "Footer",
-  data() {
-    return {
-      open: false,
-      menuList: [
-        {
-          title: "Skills",
-          link: "skills",
-        },
-        {
-          title: "Websites",
-          link: "websites",
-        },
-        {
-          title: "Banners",
-          link: "banners",
-        },
-        {
-          title: "Logos",
-          link: "logos",
-        },
-        {
-          title: "Contact",
-          link: "contact",
-        },
-      ],
-    };
-  },
-  methods: {
-    scroll(val) {
-      this.$scrollTo(document.getElementById(val), 400, {});
-    },
-  },
 };
 </script>
 
