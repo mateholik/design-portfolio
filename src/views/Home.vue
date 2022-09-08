@@ -289,6 +289,9 @@
     </section>
     <section id="about" class="about">
       <div class="container">
+        <div class="title">
+          <h2>About me</h2>
+        </div>
         <div class="planets">
           <div class="blue">
             <svg
@@ -470,14 +473,65 @@
         </div>
         <div class="wrapper cool-border">
           <div class="left">
-            <div class="title">ABOUT ME</div>
             <p>
-              I am a meticulous and ambitious UX/UI designer, who is looking for
-              customers collaboration. I feel a passion for creating responsive,
-              modern and code ready designs. If you are looking for something
-              beautiful for yourself or your company, please get in touch with
-              me.
+              After spending some time in Udemy and countless hours in youtube,
+              watching UX/UI tutorials, I managed to find some clients and
+              started freelancing. Side by side, freelancing and studying on my
+              own, I made this portfolio where you can find my projects, placed
+              chronologically from bottom to top, and see how I am improving. I
+              consider myself as a strong junior UX/UI designer, because:
             </p>
+            <ul>
+              <li>
+                I can <span>professionally</span> use Figma platform for every
+                day UX/UI design tasks
+              </li>
+              <li>
+                I am using <span>components</span>, <span>variants</span> and
+                <span>auto layouts</span> in my projects
+              </li>
+              <li>I am making designs using <span>8px grid</span> system</li>
+              <li>
+                I have experience communicating with front end developers. I
+                have understanding what <span>‘code-ready’</span> design is and
+                how design should be prepared for efficient coding
+              </li>
+              <li>
+                I provide <span>design system</span> with all interactive
+                elements (buttons, inputs, links, etc.) and their states (hover,
+                active, error, etc.)
+              </li>
+            </ul>
+            <p>
+              I am looking for new projects or office job, preferably where I
+              can communicate with experienced designers. I want to improve my
+              skills and become great UX/UI designer.
+            </p>
+            <div class="subtitle">
+              <img src="@/assets/img/process.svg" alt="icon" />
+              My work process:
+            </div>
+            <ul class="process">
+              <li>
+                1. <span>Collect information</span> about project (what is the
+                main goal; what website client needs; what pages and sections
+                are; who is target audience, etc.)
+              </li>
+              <li>
+                2. Create design structure with <span>wireframes</span>. Discuss
+                with client, update until structure is approved
+              </li>
+              <li>
+                3. <span>Research</span> on competitors or similar websites
+              </li>
+              <li>4. Create <span>design system</span></li>
+              <li>5. Start <span>designing</span> the wireframes</li>
+              <li>
+                6. <span>Review</span> with client. Update till desktop version
+                is approved
+              </li>
+              <li>7. Create <span>mobile</span> version</li>
+            </ul>
           </div>
           <div class="right">
             <div class="price">PRICE</div>
