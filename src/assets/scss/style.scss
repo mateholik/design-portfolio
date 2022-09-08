@@ -607,6 +607,7 @@ header {
   margin-top: 15rem;
   @include phone {
     margin-top: 0;
+    padding-bottom: 5rem;
   }
   .planets {
     .multiple {
@@ -775,6 +776,10 @@ header {
   margin-bottom: 0;
   padding-bottom: 9.6rem;
   padding-top: 9.6rem;
+  @include phone {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+  }
   .wrapper {
     position: relative;
     display: flex;

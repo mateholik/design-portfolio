@@ -4,7 +4,7 @@
     <Hero />
     <section id="skills" class="skills">
       <div class="container">
-        <div class="planets">
+        <div class="planets rotate">
           <svg
             width="316"
             height="187"
@@ -143,7 +143,7 @@
         <div class="title">
           <h2>
             Banners
-            <div class="planets">
+            <div class="planets rotate">
               <svg
                 width="175"
                 height="120"
@@ -290,7 +290,7 @@
     <section id="about" class="about">
       <div class="container">
         <div class="planets">
-          <div class="blue">
+          <div class="blue rotate">
             <svg
               width="316"
               height="187"
@@ -402,7 +402,7 @@
               </defs>
             </svg>
           </div>
-          <div class="green">
+          <div class="green pulse">
             <svg
               width="317"
               height="317"
@@ -434,7 +434,7 @@
               </defs>
             </svg>
           </div>
-          <div class="multiple">
+          <div class="multiple pulse">
             <svg
               width="81"
               height="79"
