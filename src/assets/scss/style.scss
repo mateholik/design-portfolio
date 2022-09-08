@@ -173,7 +173,7 @@ header {
   .planets {
     .green {
       position: absolute;
-      top: 60%;
+      top: 57%;
       left: 10%;
       width: 25%;
       max-width: 54rem;
@@ -186,7 +186,7 @@ header {
     .blue {
       position: absolute;
       position: absolute;
-      bottom: 34%;
+      bottom: 37%;
       right: 10%;
       width: 25%;
       max-width: 54rem;
@@ -436,6 +436,7 @@ header {
         position: relative;
         border-radius: 2rem;
         margin-bottom: 2.4rem;
+        transform: translateZ(0);
         @include phone {
           height: 20rem;
         }
