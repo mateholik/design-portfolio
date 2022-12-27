@@ -7,37 +7,37 @@
         <div class="planets rotate">
           <svg
             width="309"
-            height="209"
-            viewBox="0 0 309 209"
+            height="201"
+            viewBox="0 0 309 201"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <circle
               cx="157"
-              cy="104"
+              cy="100"
               r="73"
-              transform="rotate(-90 157 104)"
+              transform="rotate(-90 157 100)"
               fill="url(#paint0_linear_539_30)"
             />
             <circle
               cx="53.5"
-              cy="166.5"
+              cy="162.5"
               r="10.5"
-              transform="rotate(-90 53.5 166.5)"
+              transform="rotate(-90 53.5 162.5)"
               fill="url(#paint1_linear_539_30)"
             />
             <circle
               cx="5.5"
-              cy="203.5"
+              cy="195.5"
               r="5.5"
-              transform="rotate(-90 5.5 203.5)"
+              transform="rotate(-90 5.5 195.5)"
               fill="url(#paint2_linear_539_30)"
             />
             <circle
               cx="254.5"
-              cy="41.5"
+              cy="37.5"
               r="10.5"
-              transform="rotate(-90 254.5 41.5)"
+              transform="rotate(-90 254.5 37.5)"
               fill="url(#paint3_linear_539_30)"
             />
             <circle
@@ -51,9 +51,9 @@
               <linearGradient
                 id="paint0_linear_539_30"
                 x1="108.866"
-                y1="47.425"
+                y1="43.425"
                 x2="183.006"
-                y2="168.559"
+                y2="164.559"
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stop-color="#CC34F2" />
@@ -64,9 +64,9 @@
               <linearGradient
                 id="paint1_linear_539_30"
                 x1="46.5766"
-                y1="158.363"
+                y1="154.363"
                 x2="57.2406"
-                y2="175.786"
+                y2="171.786"
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stop-color="#CC34F2" />
@@ -77,9 +77,9 @@
               <linearGradient
                 id="paint2_linear_539_30"
                 x1="1.87344"
-                y1="199.238"
+                y1="191.238"
                 x2="7.45937"
-                y2="208.364"
+                y2="200.364"
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stop-color="#CC34F2" />
@@ -90,9 +90,9 @@
               <linearGradient
                 id="paint3_linear_539_30"
                 x1="247.577"
-                y1="33.3625"
+                y1="29.3625"
                 x2="258.241"
-                y2="50.7859"
+                y2="46.7859"
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stop-color="#CC34F2" />
@@ -292,37 +292,37 @@
           <div class="blue rotate">
             <svg
               width="309"
-              height="209"
-              viewBox="0 0 309 209"
+              height="201"
+              viewBox="0 0 309 201"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <circle
                 cx="157"
-                cy="104"
+                cy="100"
                 r="73"
-                transform="rotate(-90 157 104)"
+                transform="rotate(-90 157 100)"
                 fill="url(#paint0_linear_539_30)"
               />
               <circle
                 cx="53.5"
-                cy="166.5"
+                cy="162.5"
                 r="10.5"
-                transform="rotate(-90 53.5 166.5)"
+                transform="rotate(-90 53.5 162.5)"
                 fill="url(#paint1_linear_539_30)"
               />
               <circle
                 cx="5.5"
-                cy="203.5"
+                cy="195.5"
                 r="5.5"
-                transform="rotate(-90 5.5 203.5)"
+                transform="rotate(-90 5.5 195.5)"
                 fill="url(#paint2_linear_539_30)"
               />
               <circle
                 cx="254.5"
-                cy="41.5"
+                cy="37.5"
                 r="10.5"
-                transform="rotate(-90 254.5 41.5)"
+                transform="rotate(-90 254.5 37.5)"
                 fill="url(#paint3_linear_539_30)"
               />
               <circle
@@ -336,9 +336,9 @@
                 <linearGradient
                   id="paint0_linear_539_30"
                   x1="108.866"
-                  y1="47.425"
+                  y1="43.425"
                   x2="183.006"
-                  y2="168.559"
+                  y2="164.559"
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stop-color="#CC34F2" />
@@ -349,9 +349,9 @@
                 <linearGradient
                   id="paint1_linear_539_30"
                   x1="46.5766"
-                  y1="158.363"
+                  y1="154.363"
                   x2="57.2406"
-                  y2="175.786"
+                  y2="171.786"
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stop-color="#CC34F2" />
@@ -362,9 +362,9 @@
                 <linearGradient
                   id="paint2_linear_539_30"
                   x1="1.87344"
-                  y1="199.238"
+                  y1="191.238"
                   x2="7.45937"
-                  y2="208.364"
+                  y2="200.364"
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stop-color="#CC34F2" />
@@ -375,9 +375,9 @@
                 <linearGradient
                   id="paint3_linear_539_30"
                   x1="247.577"
-                  y1="33.3625"
+                  y1="29.3625"
                   x2="258.241"
-                  y2="50.7859"
+                  y2="46.7859"
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stop-color="#CC34F2" />
@@ -518,6 +518,7 @@
                 :href="item.link"
                 class="cta"
                 :key="item.title"
+                target="_blank"
               >
                 <img
                   loading="lazy"
@@ -812,6 +813,11 @@ export default {
             icon: "whatsup.svg",
             title: "WhatsApp",
             link: "https://wa.me/+37067791332",
+          },
+          {
+            icon: "linkedin.svg",
+            title: "LinkedIn",
+            link: "https://www.linkedin.com/in/maksim-vaisov-b33634230/",
           },
         ],
         inputs: [

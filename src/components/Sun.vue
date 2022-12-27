@@ -89,9 +89,11 @@ $solarSystem: (
 }
 
 .card__planet {
+  margin-left: 94px;
   transform: scale(1.5);
   @media (max-width: 768px) {
     transform: scale(0.8);
+    margin-left: 0;
   }
   //   &::before {
   //     content: "";
@@ -130,7 +132,7 @@ $solarSystem: (
 .card--sun {
   .planet__atmosphere {
     box-shadow: 0px 0px 10px 0px var(--sun-color),
-      0px 0px 1000px -2px var(--sun-color);
+      0px 0px 1000px -36px var(--sun-color);
   }
 }
 </style>
