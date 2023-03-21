@@ -502,7 +502,7 @@
             <div class="price">
               <img src="@/assets/img/label.svg" alt="icon" />PRICE
             </div>
-            <div class="rate">12 €/h</div>
+            <div class="rate">18 €/h</div>
           </div>
         </div>
       </div>
