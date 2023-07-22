@@ -448,12 +448,13 @@
         <div class="wrapper cool-border">
           <div class="left">
             <p>
-              After spending some time in Udemy and countless hours in youtube,
-              watching UX/UI tutorials, I managed to find some clients and
-              started freelancing. Side by side, freelancing and studying on my
-              own, I made this portfolio where you can find my projects, placed
-              chronologically from bottom to top, and see how I am improving. I
-              consider myself as a strong junior UX/UI designer, because:
+              I am an ambitious UX/UI designer actively seeking new job
+              opportunities. With a passion for creating responsive, modern, and
+              code-ready designs, I strive to deliver exceptional user
+              experiences. Equipped with valuable knowledge and skills acquired
+              from the Baltic Institute of Technology, I am well-prepared to
+              tackle design challenges. I consider myself as a strong junior
+              UX/UI designer, because:
             </p>
             <ul>
               <li>
@@ -539,7 +540,7 @@
                 <span>{{ item.title }}</span>
               </a>
             </div>
-            <form action="" @submit.prevent="submit">
+            <!-- <form action="" @submit.prevent="submit">
               <Input
                 :label="contacts.inputs[0].label"
                 type="text"
@@ -571,10 +572,11 @@
               <p class="typo__p" v-if="submitStatus === 'PENDING'">
                 Sending...
               </p>
-            </form>
+            </form> -->
           </div>
           <div class="right">
-            <Sun />
+            <!-- <Sun /> -->
+            <img class="rotate" src="images/sun.svg" alt="" />
           </div>
         </div>
       </div>
@@ -592,7 +594,7 @@ import CardWeb from "@/components/CardWeb.vue";
 import Other from "@/components/Other.vue";
 // import CardPrice from "@/components/CardPrice.vue";
 import CardLogo from "@/components/CardLogo.vue";
-import Input from "@/components/Input.vue";
+// import Input from "@/components/Input.vue";
 import Footer from "@/components/Footer.vue";
 export default {
   components: {
@@ -602,10 +604,10 @@ export default {
     CardWeb,
     // CardPrice,
     CardLogo,
-    Input,
+    // Input,
     Footer,
     Other,
-    Sun: () => import(/* webpackPrefetch: true */ "@/components/Sun.vue"),
+    // Sun: () => import(/* webpackPrefetch: true */ "@/components/Sun.vue"),
   },
   data() {
     return {

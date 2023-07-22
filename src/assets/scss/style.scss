@@ -639,6 +639,29 @@ header {
   }
 }
 .other {
+  .title {
+    display: flex;
+    justify-content: center;
+    h2 {
+      display: inline-block;
+      position: relative;
+      .planets {
+        position: absolute;
+        top: -38px;
+        right: -72px;
+        min-width: 15rem;
+        width: 100%;
+        z-index: -1;
+        @include phone {
+          top: -30px;
+          left: -44px;
+          min-width: 11rem;
+          width: 100%;
+          z-index: -1;
+        }
+      }
+    }
+  }
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -820,6 +843,7 @@ header {
   }
 }
 .contact {
+  margin-bottom: 0;
   .wrapper {
     position: relative;
     display: flex;
@@ -871,18 +895,18 @@ header {
     }
   }
   .right {
+    @include center;
     width: 50%;
     @include phone {
       position: static;
       width: 100%;
     }
     img {
-      width: 74%;
-      margin-bottom: 70px;
-      margin-left: auto;
+      width: 33rem;
+      // margin-left: auto;
       @include phone {
         display: block;
-        max-width: 36rem;
+        // max-width: 36rem;
         margin: 0 auto;
       }
     }
