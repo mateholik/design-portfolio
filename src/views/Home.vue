@@ -295,28 +295,7 @@
         </div>
       </div>
     </section>
-
-    <section id="other" class="other">
-      <div class="container">
-        <div class="title">
-          <h2>Other</h2>
-        </div>
-        <div class="wrapper">
-          <div
-            class="img-wrapper"
-            v-for="(item, i) in otherData"
-            :key="`other-${i}`"
-          >
-            <img
-              loading="lazy"
-              class="cool-border"
-              :src="require('@/assets/img/' + item.preview)"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+    <Other :items="otherData" id="other" />
     <section id="about" class="about">
       <div class="container">
         <h2>About me</h2>
@@ -610,6 +589,7 @@ import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import CardSkill from "@/components/CardSkill.vue";
 import CardWeb from "@/components/CardWeb.vue";
+import Other from "@/components/Other.vue";
 // import CardPrice from "@/components/CardPrice.vue";
 import CardLogo from "@/components/CardLogo.vue";
 import Input from "@/components/Input.vue";
@@ -624,6 +604,7 @@ export default {
     CardLogo,
     Input,
     Footer,
+    Other,
     Sun: () => import(/* webpackPrefetch: true */ "@/components/Sun.vue"),
   },
   data() {
@@ -792,34 +773,35 @@ export default {
         "banner-5.jpeg",
         "banner-6.jpeg",
       ],
+      //from public folder, not like others, to make slider work
       otherData: [
         {
-          preview: "other-1-preview.jpeg",
-          img: "",
+          preview: "images/other-1-preview.jpeg",
+          img: "images/other-1.jpeg",
         },
         {
-          preview: "other-2-preview.jpeg",
-          img: "",
+          preview: "images/other-2-preview.jpeg",
+          img: "images/other-2.jpeg",
         },
         {
-          preview: "other-3-preview.jpeg",
-          img: "",
+          preview: "images/other-3-preview.jpeg",
+          img: "images/other-3.jpeg",
         },
         {
-          preview: "other-4-preview.jpeg",
-          img: "",
+          preview: "images/other-4-preview.jpeg",
+          img: "images/other-4.jpeg",
         },
         {
-          preview: "other-5-preview.jpeg",
-          img: "",
+          preview: "images/other-5-preview.jpeg",
+          img: "images/other-5.jpeg",
         },
         {
-          preview: "other-6-preview.jpeg",
-          img: "",
+          preview: "images/other-6-preview.jpeg",
+          img: "images/other-6.jpeg",
         },
         {
-          preview: "other-7-preview.jpeg",
-          img: "",
+          preview: "images/other-7-preview.jpeg",
+          img: "images/other-7.jpeg",
         },
       ],
       logosData: [

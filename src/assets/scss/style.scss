@@ -645,6 +645,7 @@ header {
     flex-wrap: wrap;
     margin: 0 -2rem;
     .img-wrapper {
+      cursor: pointer;
       width: calc(min(50%, 61rem));
       padding: 0 2rem;
       margin-bottom: 6.4rem;
