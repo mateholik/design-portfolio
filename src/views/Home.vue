@@ -132,9 +132,19 @@
         <div class="wrapper">
           <CardWeb
             :webData="item"
-            v-for="(item, i) in websData"
+            v-for="(item, i) in visibleWebsData"
             :key="`web-${i}`"
           />
+        </div>
+        <div ref="seeMore" class="see-more">
+          <div @click="toggleWebsiteAmountCta">
+            {{ !showAllwebsData ? "See more" : "See less" }}
+            <img
+              :class="{ opened: showAllwebsData }"
+              :src="require('@/assets/img/arrow-down.svg')"
+              alt="arrow"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -282,6 +292,28 @@
             v-for="(item, i) in logosData"
             :key="`logo-${i}`"
           />
+        </div>
+      </div>
+    </section>
+
+    <section id="other" class="other">
+      <div class="container">
+        <div class="title">
+          <h2>Other</h2>
+        </div>
+        <div class="wrapper">
+          <div
+            class="img-wrapper"
+            v-for="(item, i) in otherData"
+            :key="`other-${i}`"
+          >
+            <img
+              loading="lazy"
+              class="cool-border"
+              :src="require('@/assets/img/' + item.preview)"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -599,14 +631,15 @@ export default {
       email: "",
       message: "",
       submitStatus: null,
+      showAllwebsData: false,
       skillsData: [
         {
           logo: "design",
           title: "UX/UI design:",
           items: [
-            "WEB design creation",
-            "Old web pages update",
-            "Components, options, autolayouts",
+            "Create e-shops",
+            "Rearrange existing pages",
+            "Create landing pages",
           ],
         },
         {
@@ -617,7 +650,7 @@ export default {
         {
           logo: "programs",
           title: "Programs",
-          items: ["Adobe Photoshop", "Figma", "Adobe XD"],
+          items: ["Figma", "Photoshop", "Illustrator"],
         },
       ],
       websData: [
@@ -632,16 +665,6 @@ export default {
           linkPdf: "./pdf/matesklubas.pdf",
         },
         {
-          tag: "E-SHOP",
-          title: "Wood e-shop",
-          description:
-            "Find wood that you need, from structural wood to outdoor siding and build your house with quality.",
-          image: "wood.jpeg",
-          linkFigma:
-            "https://www.figma.com/file/8gimzufbp4ry0NULYr0sp3/Medienos-E-parduotuv%C4%97?node-id=0%3A1",
-          linkPdf: "./pdf/wood.pdf",
-        },
-        {
           tag: "Social platform",
           title: "Recipes project",
           description:
@@ -650,6 +673,25 @@ export default {
           linkFigma:
             "https://www.figma.com/file/Via19Olqbo4Lcf8Jpnbzhu/Food-world?node-id=0%3A1",
           linkPdf: "./pdf/recipes.pdf",
+        },
+        {
+          tag: "Landing page",
+          title: "fasadoapsiltinimas.lt",
+          description:
+            "Revitalize your building's exterior with our advanced facade insulation, combining energy efficiency and noise reduction.",
+          image: "fasadai.jpeg",
+          linkFigma:
+            "https://www.figma.com/file/JfeISvm0sqVB3ItSWNsR5T/Fasado-siltinimas?type=design&node-id=1-2&mode=design&t=bYdud2WxIOofxicg-0",
+        },
+        {
+          tag: "E-SHOP",
+          title: "Wood e-shop",
+          description:
+            "Find wood that you need, from structural wood to outdoor siding and build your house with quality.",
+          image: "wood.jpeg",
+          linkFigma:
+            "https://www.figma.com/file/8gimzufbp4ry0NULYr0sp3/Medienos-E-parduotuv%C4%97?node-id=0%3A1",
+          linkPdf: "./pdf/wood.pdf",
         },
         {
           tag: "E-shop",
@@ -673,13 +715,31 @@ export default {
         },
         {
           tag: "Auction page",
-          title: "EVG auto",
+          title: "evgauto.lt",
           description:
             "In this page the buyer offering the highest price for the vehicle is found in the shortest possible time.",
           image: "evgauto.jpeg",
           linkFigma:
             "https://www.figma.com/file/TfaCaBETRLihK6Q1VGDwls/evgauto?node-id=0%3A1",
           linkPdf: "./pdf/evgauto.pdf",
+        },
+        {
+          tag: "landing page",
+          title: "psychological help",
+          description:
+            "Here you can get a professional psychological help from our specialists.",
+          image: "psychology.jpeg",
+          linkFigma:
+            "https://www.figma.com/file/iVRgEaQtxZkf7Xl3xKeFkX/Olios-landingas?type=design&node-id=0-1&mode=design&t=bYdud2WxIOofxicg-0",
+        },
+        {
+          tag: "landing page",
+          title: "chatbot",
+          description:
+            "Experience expert house foundation assistance through our chatbot, ensuring the stability and longevity of your home.",
+          image: "chatbot.jpeg",
+          linkFigma:
+            "https://www.figma.com/file/WgeYS3Vzb3JxLYUZduYdQL/Chatbot-done?type=design&node-id=0-1&mode=design&t=AHnU5GXpqyCVaQKx-0",
         },
         {
           tag: "E-shop",
@@ -732,7 +792,42 @@ export default {
         "banner-5.jpeg",
         "banner-6.jpeg",
       ],
+      otherData: [
+        {
+          preview: "other-1-preview.jpeg",
+          img: "",
+        },
+        {
+          preview: "other-2-preview.jpeg",
+          img: "",
+        },
+        {
+          preview: "other-3-preview.jpeg",
+          img: "",
+        },
+        {
+          preview: "other-4-preview.jpeg",
+          img: "",
+        },
+        {
+          preview: "other-5-preview.jpeg",
+          img: "",
+        },
+        {
+          preview: "other-6-preview.jpeg",
+          img: "",
+        },
+        {
+          preview: "other-7-preview.jpeg",
+          img: "",
+        },
+      ],
       logosData: [
+        {
+          image: "rivertown.png",
+          linkFigma: "",
+          linkPdf: "",
+        },
         {
           image: "evgauto.svg",
           linkFigma: "www.figma.lt",
@@ -834,7 +929,21 @@ export default {
       },
     };
   },
+  computed: {
+    visibleWebsData() {
+      return this.showAllwebsData ? this.websData : this.websData.slice(0, 6);
+    },
+  },
   methods: {
+    toggleWebsiteAmountCta() {
+      this.showAllwebsData = !this.showAllwebsData;
+      if (this.showAllwebsData) return;
+      this.$nextTick(() => {
+        this.$scrollTo(this.$refs.seeMore, 400, {
+          offset: -700,
+        });
+      });
+    },
     submit() {
       console.log("submit!");
       this.$v.$touch();

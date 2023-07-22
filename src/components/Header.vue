@@ -102,6 +102,10 @@ export default {
               title: "Logos",
               link: "logos",
             },
+            {
+              title: "Other",
+              link: "other",
+            },
           ],
         },
         {

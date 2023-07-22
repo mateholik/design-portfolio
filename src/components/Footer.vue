@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="container">
-      <p>maxdesign.online © 2022</p>
+      <p>maxdesign.lt © {{ currentYear }}</p>
     </div>
   </footer>
 </template>
@@ -9,6 +9,11 @@
 <script>
 export default {
   name: "Footer",
+  computed: {
+    currentYear() {
+      return new Date().getFullYear();
+    },
+  },
 };
 </script>
 
