@@ -4,7 +4,7 @@
       <img
         loading="lazy"
         :src="require('@/assets/img/' + webData.image)"
-        :alt="webData.title"
+        alt="logo"
       />
       <!-- <div class="holder cool-border">
         <div class="title">{{ webData.title }}</div>

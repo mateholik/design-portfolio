@@ -35,6 +35,7 @@
             class="hamburger hamburger--vortex"
             :class="{ 'is-active': open }"
             type="button"
+            aria-label="Menu button"
           >
             <span class="hamburger-box">
               <span class="hamburger-inner"></span>
