@@ -576,7 +576,7 @@
           </div>
           <div class="right">
             <!-- <Sun /> -->
-            <img class="rotate" src="images/sun.svg" alt="" />
+            <!-- <img class="" src="images/sun.svg" alt="" /> -->
           </div>
         </div>
       </div>
