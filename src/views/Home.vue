@@ -576,7 +576,7 @@
           </div>
           <div class="right">
             <!-- <Sun /> -->
-            <!-- <img class="" src="images/sun.svg" alt="" /> -->
+            <img class="" src="images/sun.svg" alt="" />
           </div>
         </div>
       </div>
@@ -662,7 +662,7 @@ export default {
           title: "fasadoapsiltinimas.lt",
           description:
             "Revitalize your building's exterior with our advanced facade insulation, combining energy efficiency and noise reduction.",
-          image: "fasadai.jpeg",
+          image: "fasadai.jpg",
           linkFigma:
             "https://www.figma.com/file/JfeISvm0sqVB3ItSWNsR5T/Fasado-siltinimas?type=design&node-id=1-2&mode=design&t=bYdud2WxIOofxicg-0",
         },
@@ -711,7 +711,7 @@ export default {
           title: "psychological help",
           description:
             "Here you can get a professional psychological help from our specialists.",
-          image: "psychology.jpeg",
+          image: "psychology.jpg",
           linkFigma:
             "https://www.figma.com/file/iVRgEaQtxZkf7Xl3xKeFkX/Olios-landingas?type=design&node-id=0-1&mode=design&t=bYdud2WxIOofxicg-0",
         },
@@ -720,7 +720,7 @@ export default {
           title: "chatbot",
           description:
             "Experience expert house foundation assistance through our chatbot, ensuring the stability and longevity of your home.",
-          image: "chatbot.jpeg",
+          image: "chatbot.jpg",
           linkFigma:
             "https://www.figma.com/file/WgeYS3Vzb3JxLYUZduYdQL/Chatbot-done?type=design&node-id=0-1&mode=design&t=AHnU5GXpqyCVaQKx-0",
         },
@@ -783,27 +783,27 @@ export default {
         },
         {
           preview: "images/other-2-preview.jpeg",
-          img: "images/other-2.jpeg",
+          img: "images/other-2.jpg",
         },
         {
           preview: "images/other-3-preview.jpeg",
-          img: "images/other-3.jpeg",
+          img: "images/other-3.jpg",
         },
         {
           preview: "images/other-4-preview.jpeg",
-          img: "images/other-4.jpeg",
+          img: "images/other-4.jpg",
         },
         {
           preview: "images/other-5-preview.jpeg",
-          img: "images/other-5.jpeg",
+          img: "images/other-5.jpg",
         },
         {
           preview: "images/other-6-preview.jpeg",
-          img: "images/other-6.jpeg",
+          img: "images/other-6.jpg",
         },
         {
           preview: "images/other-7-preview.jpeg",
-          img: "images/other-7.jpeg",
+          img: "images/other-7.jpg",
         },
       ],
       logosData: [

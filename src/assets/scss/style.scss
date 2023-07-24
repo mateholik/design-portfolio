@@ -409,11 +409,13 @@ header {
         font-weight: 600;
         text-transform: uppercase;
         color: #4c6bd7;
+        margin-bottom: 2.4rem;
         @include phone {
           font-size: 1.4rem;
         }
       }
       .title {
+        display: none;
         font-size: 3.2rem;
         margin-bottom: 1.6rem;
         font-weight: 500;
@@ -421,12 +423,14 @@ header {
           font-size: 2.4rem;
         }
         &--link {
+          display: none;
           text-decoration: underline;
           color: $textColor;
           display: block;
         }
       }
       p {
+        display: none;
         margin-bottom: 2.4rem;
         font-size: 1.8rem;
         @include phone {
