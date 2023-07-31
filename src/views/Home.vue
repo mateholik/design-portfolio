@@ -574,9 +574,10 @@
               </p>
             </form> -->
           </div>
-          <div class="right">
-            <!-- <Sun /> -->
-            <img class="" src="images/sun.svg" alt="" />
+          <div class="sun-holder">
+            <div class="rotate">
+              <img class="sun" loading="lazy" src="images/sun.png" alt="sun" />
+            </div>
           </div>
         </div>
       </div>
@@ -813,6 +814,16 @@ export default {
           linkPdf: "",
         },
         {
+          image: "fasadai.svg",
+          linkFigma: "",
+          linkPdf: "",
+        },
+        {
+          image: "judantis.gif",
+          linkFigma: "",
+          linkPdf: "",
+        },
+        {
           image: "evgauto.svg",
           linkFigma: "www.figma.lt",
           linkPdf: "www.pdf.lt",
@@ -870,13 +881,18 @@ export default {
         socials: [
           {
             icon: "phone.svg",
-            title: "+37067791332",
+            title: "Phone nr.: +37067791332",
             link: "tel:+37067791332",
           },
           {
             icon: "email.svg",
-            title: "maksim.vaisov061@gmail.com",
+            title: "E-mail: maksim.vaisov061@gmail.com",
             link: "mailto:maksim.vaisov061@gmail.com",
+          },
+          {
+            icon: "linkedin.svg",
+            title: "LinkedIn",
+            link: "https://www.linkedin.com/in/maksim-vaisov-b33634230/",
           },
           {
             icon: "fb.svg",
@@ -885,18 +901,13 @@ export default {
           },
           {
             icon: "viber.svg",
-            title: "Viber",
-            link: "viber://chat/?number=%2B37067791332",
+            title: "Viber: +37067791332 ",
+            link: "https://msng.link/o?37067791332=vi",
           },
           {
             icon: "whatsup.svg",
-            title: "WhatsApp",
+            title: "WhatsApp: +37067791332 ",
             link: "https://wa.me/+37067791332",
-          },
-          {
-            icon: "linkedin.svg",
-            title: "LinkedIn",
-            link: "https://www.linkedin.com/in/maksim-vaisov-b33634230/",
           },
         ],
         inputs: [
