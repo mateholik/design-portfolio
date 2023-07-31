@@ -666,6 +666,7 @@ export default {
           image: "fasadai.jpg",
           linkFigma:
             "https://www.figma.com/file/JfeISvm0sqVB3ItSWNsR5T/Fasado-siltinimas?type=design&node-id=1-2&mode=design&t=bYdud2WxIOofxicg-0",
+          linkPdf: "./pdf/fasadai.pdf",
         },
         {
           tag: "E-SHOP",
@@ -715,6 +716,7 @@ export default {
           image: "psychology.jpg",
           linkFigma:
             "https://www.figma.com/file/iVRgEaQtxZkf7Xl3xKeFkX/Olios-landingas?type=design&node-id=0-1&mode=design&t=bYdud2WxIOofxicg-0",
+          linkPdf: "./pdf/psychology.pdf",
         },
         {
           tag: "landing page",
@@ -724,6 +726,7 @@ export default {
           image: "chatbot.jpg",
           linkFigma:
             "https://www.figma.com/file/WgeYS3Vzb3JxLYUZduYdQL/Chatbot-done?type=design&node-id=0-1&mode=design&t=AHnU5GXpqyCVaQKx-0",
+          linkPdf: "./pdf/chatbot.pdf",
         },
         {
           tag: "E-shop",
