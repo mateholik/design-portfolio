@@ -161,7 +161,7 @@ export default {
   methods: {
     close() {
       this.index = null;
-      document.documentElement.style.overflow = "visible";
+      document.documentElement.style.overflow = "auto";
     },
     open() {
       document.documentElement.style.overflow = "hidden";
